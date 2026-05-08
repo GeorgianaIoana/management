@@ -39,3 +39,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+scripts/teacher-credentials.json
+
+# Security scripts with sensitive data
+scripts/rotate-teacher-passwords.ts
+scripts/run-security-setup.ts
+scripts/enable-rls.ts

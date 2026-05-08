@@ -1,0 +1,2123 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:contact@thesquarechessclub.com
+X-WR-TIMEZONE:Europe/Bucharest
+BEGIN:VTIMEZONE
+TZID:Europe/Bucharest
+X-LIC-LOCATION:Europe/Bucharest
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0300
+TZNAME:GMT+3
+DTSTART:19700329T030000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0300
+TZOFFSETTO:+0200
+TZNAME:GMT+2
+DTSTART:19701025T040000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Bucharest:20260417T163000
+DTEND;TZID=Europe/Bucharest:20260417T180000
+DTSTAMP:20260508T133050Z
+ORGANIZER;CN=ACS THE SQUARE:mailto:contact@thesquarechessclub.com
+UID:6q71gnjqppbdg33q7dr3kgvjvb@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=le
+ vvaj81@gmail.com;X-NUM-GUESTS=0:mailto:levvaj81@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=ACS TH
+ E SQUARE;X-NUM-GUESTS=0:mailto:contact@thesquarechessclub.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/doo-ukvn-pui
+RECURRENCE-ID;TZID=Europe/Bucharest:20260417T163000
+CREATED:20260324T162106Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/do
+ o-ukvn-pui\nOr dial: (RO) +40 31 227 7465 PIN: 440916965#\nMore phone numbe
+ rs: https://tel.meet/doo-ukvn-pui?pin=5058967384871&hs=7\n\nLearn more abou
+ t Meet at: https://support.google.com/a/users/answer/9282720\n\nPlease do n
+ ot edit this section.\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20260506T100021Z
+LOCATION:Strada Corbeni 34\, 030167 București\, Romania
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:prezent - Andrei - lectie de sah
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Bucharest:20260424T163000
+DTEND;TZID=Europe/Bucharest:20260424T180000
+DTSTAMP:20260508T133050Z
+ORGANIZER;CN=ACS THE SQUARE:mailto:contact@thesquarechessclub.com
+UID:427h1h8gi3uvsc1h2fbfeli0re@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=le
+ vvaj81@gmail.com;X-NUM-GUESTS=0:mailto:levvaj81@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=ACS TH
+ E SQUARE;X-NUM-GUESTS=0:mailto:contact@thesquarechessclub.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/wmn-ykft-fin
+RECURRENCE-ID;TZID=Europe/Bucharest:20260424T163000
+CREATED:20260324T162019Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/wm
+ n-ykft-fin\nOr dial: (RO) +40 31 227 7454 PIN: 612718543#\nMore phone numbe
+ rs: https://tel.meet/wmn-ykft-fin?pin=4501323452007&hs=7\n\nLearn more abou
+ t Meet at: https://support.google.com/a/users/answer/9282720\n\nPlease do n
+ ot edit this section.\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20260503T103631Z
+LOCATION:Strada Corbeni 34\, 030167 București\, Romania
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:prezent - Marcu - lectie de sah
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260409T080000Z
+DTEND:20260409T090000Z
+DTSTAMP:20260508T133050Z
+ORGANIZER;CN=vladighita@gmail.com:mailto:vladighita@gmail.com
+UID:6hgjec9ockrjcbb66gs3gb9k6pj6cb9o74q3ebb4c8s3cc9ocdgm2dplcc@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=co
+ ntact@thesquarechessclub.com;X-NUM-GUESTS=0:mailto:contact@thesquarechesscl
+ ub.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=vladig
+ hita@gmail.com;X-NUM-GUESTS=0:mailto:vladighita@gmail.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/nhk-yozj-duw
+CREATED:20260407T142542Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/nh
+ k-yozj-duw\n\nLearn more about Meet at: https://support.google.com/a/users/
+ answer/9282720\n\nPlease do not edit this section.\n-::~:~::~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20260409T182512Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Ovidiu
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Bucharest:20260502T073000
+DTEND;TZID=Europe/Bucharest:20260502T210000
+DTSTAMP:20260508T133050Z
+ORGANIZER;CN=ACS THE SQUARE:mailto:contact@thesquarechessclub.com
+UID:77skqfb922cta723u6qstot4f1@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=le
+ vvaj81@gmail.com;X-NUM-GUESTS=0:mailto:levvaj81@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=ACS TH
+ E SQUARE;X-NUM-GUESTS=0:mailto:contact@thesquarechessclub.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/qek-gzrd-qpr
+RECURRENCE-ID;TZID=Europe/Bucharest:20260502T073000
+CREATED:20260324T162433Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/qe
+ k-gzrd-qpr\nOr dial: (RO) +40 31 227 6953 PIN: 654376971#\nMore phone numbe
+ rs: https://tel.meet/qek-gzrd-qpr?pin=5031918749055&hs=7\n\nLearn more abou
+ t Meet at: https://support.google.com/a/users/answer/9282720\n\nPlease do n
+ ot edit this section.\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20260503T012817Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:prezent - Razvan Tudoroiu
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:This is an event reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Bucharest:20260418T073000
+DTEND;TZID=Europe/Bucharest:20260418T210000
+DTSTAMP:20260508T133050Z
+ORGANIZER;CN=ACS THE SQUARE:mailto:contact@thesquarechessclub.com
+UID:77skqfb922cta723u6qstot4f1@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=le
+ vvaj81@gmail.com;X-NUM-GUESTS=0:mailto:levvaj81@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=ACS TH
+ E SQUARE;X-NUM-GUESTS=0:mailto:contact@thesquarechessclub.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/qek-gzrd-qpr
+RECURRENCE-ID;TZID=Europe/Bucharest:20260418T073000
+CREATED:20260324T162433Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/qe
+ k-gzrd-qpr\nOr dial: (RO) +40 31 227 6953 PIN: 654376971#\nMore phone numbe
+ rs: https://tel.meet/qek-gzrd-qpr?pin=5031918749055&hs=7\n\nLearn more abou
+ t Meet at: https://support.google.com/a/users/answer/9282720\n\nPlease do n
+ ot edit this section.\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20260503T012817Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:prezent - Razvan Tudoroiu
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:This is an event reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Bucharest:20260501T163000
+DTEND;TZID=Europe/Bucharest:20260501T180000
+DTSTAMP:20260508T133050Z
+ORGANIZER;CN=ACS THE SQUARE:mailto:contact@thesquarechessclub.com
+UID:427h1h8gi3uvsc1h2fbfeli0re@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=le
+ vvaj81@gmail.com;X-NUM-GUESTS=0:mailto:levvaj81@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=ACS TH
+ E SQUARE;X-NUM-GUESTS=0:mailto:contact@thesquarechessclub.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/wmn-ykft-fin
+RECURRENCE-ID;TZID=Europe/Bucharest:20260501T163000
+CREATED:20260324T162019Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/wm
+ n-ykft-fin\nOr dial: (RO) +40 31 227 7454 PIN: 612718543#\nMore phone numbe
+ rs: https://tel.meet/wmn-ykft-fin?pin=4501323452007&hs=7\n\nLearn more abou
+ t Meet at: https://support.google.com/a/users/answer/9282720\n\nPlease do n
+ ot edit this section.\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20260503T103631Z
+LOCATION:Strada Corbeni 34\, 030167 București\, Romania
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:prezent - Marcu - lectie de sah
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Bucharest:20260402T200000
+DTEND;TZID=Europe/Bucharest:20260402T212000
+RRULE:FREQ=WEEKLY;BYDAY=TH
+DTSTAMP:20260508T133050Z
+ORGANIZER;CN=ACS THE SQUARE:mailto:contact@thesquarechessclub.com
+UID:5atnq8prqu14343dkjdhlt948g@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=ra
+ zvancatalintuduroiu@gmail.com;X-NUM-GUESTS=0:mailto:razvancatalintuduroiu@g
+ mail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=ACS TH
+ E SQUARE;X-NUM-GUESTS=0:mailto:contact@thesquarechessclub.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/xet-uphk-naq
+CREATED:20260324T151409Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/xe
+ t-uphk-naq\nOr dial: (RO) +40 31 227 7198 PIN: 981344890#\nMore phone numbe
+ rs: https://tel.meet/xet-uphk-naq?pin=9744065588019&hs=7\n\nLearn more abou
+ t Meet at: https://support.google.com/a/users/answer/9282720\n\nPlease do n
+ ot edit this section.\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20260507T035449Z
+LOCATION:Strada Corbeni 34\, 030167 București\, Romania
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Ciprian - Chess Time
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:This is an event reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Bucharest:20250620T163000
+DTEND;TZID=Europe/Bucharest:20250620T180000
+DTSTAMP:20260508T133050Z
+ORGANIZER;CN=vladighita@gmail.com:mailto:vladighita@gmail.com
+UID:60rj4pb160smcb9pcorm2b9k6phm2bb164p3cbb4ccs66pj3ccp6ad3174@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=vladig
+ hita@gmail.com;X-NUM-GUESTS=0:mailto:vladighita@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=co
+ ntact@thesquarechessclub.com;X-NUM-GUESTS=0:mailto:contact@thesquarechesscl
+ ub.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/gjs-yrbr-foc
+RECURRENCE-ID;TZID=Europe/Bucharest:20250618T163000
+CREATED:20250116T143034Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/gj
+ s-yrbr-foc\n\nLearn more about Meet at: https://support.google.com/a/users/
+ answer/9282720\n\nPlease do not edit this section.\n-::~:~::~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20260409T182537Z
+SEQUENCE:2
+STATUS:CONFIRMED
+SUMMARY:Roman Musat @The Square
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Bucharest:20260328T073000
+DTEND;TZID=Europe/Bucharest:20260328T210000
+RRULE:FREQ=WEEKLY;BYDAY=SA
+DTSTAMP:20260508T133050Z
+ORGANIZER;CN=ACS THE SQUARE:mailto:contact@thesquarechessclub.com
+UID:77skqfb922cta723u6qstot4f1@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=le
+ vvaj81@gmail.com;X-NUM-GUESTS=0:mailto:levvaj81@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=ACS TH
+ E SQUARE;X-NUM-GUESTS=0:mailto:contact@thesquarechessclub.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/qek-gzrd-qpr
+CREATED:20260324T162433Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/qe
+ k-gzrd-qpr\nOr dial: (RO) +40 31 227 6953 PIN: 654376971#\nMore phone numbe
+ rs: https://tel.meet/qek-gzrd-qpr?pin=5031918749055&hs=7\n\nLearn more abou
+ t Meet at: https://support.google.com/a/users/answer/9282720\n\nPlease do n
+ ot edit this section.\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20260503T012817Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Razvan Tudoroiu
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:This is an event reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Bucharest:20260424T180000
+DTEND;TZID=Europe/Bucharest:20260424T193000
+DTSTAMP:20260508T133050Z
+ORGANIZER;CN=ACS THE SQUARE:mailto:contact@thesquarechessclub.com
+UID:056eomqb3v75k05peoj8omsrj9@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=ACS TH
+ E SQUARE;X-NUM-GUESTS=0:mailto:contact@thesquarechessclub.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=le
+ vvaj81@gmail.com;X-NUM-GUESTS=0:mailto:levvaj81@gmail.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/jov-amch-thz
+RECURRENCE-ID;TZID=Europe/Bucharest:20260424T180000
+CREATED:20260324T162222Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/jo
+ v-amch-thz\nOr dial: (RO) +40 31 227 6789 PIN: 492641222#\nMore phone numbe
+ rs: https://tel.meet/jov-amch-thz?pin=7527255801116&hs=7\n\nLearn more abou
+ t Meet at: https://support.google.com/a/users/answer/9282720\n\nPlease do n
+ ot edit this section.\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20260507T221948Z
+LOCATION:Strada Corbeni 34\, 030167 București\, Romania
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:prezent - Ana - lectie de sah
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Bucharest:20260404T193000
+DTEND;TZID=Europe/Bucharest:20260404T210000
+DTSTAMP:20260508T133050Z
+ORGANIZER;CN=ACS THE SQUARE:mailto:contact@thesquarechessclub.com
+UID:3ugbg3a1nr8gfsgcn8fmhiq1k3@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=le
+ vvaj81@gmail.com;X-NUM-GUESTS=0:mailto:levvaj81@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=ACS TH
+ E SQUARE;X-NUM-GUESTS=0:mailto:contact@thesquarechessclub.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/dsk-ybsa-rcu
+RECURRENCE-ID;TZID=Europe/Bucharest:20260404T193000
+CREATED:20260324T162610Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/ds
+ k-ybsa-rcu\nOr dial: (RO) +40 31 227 7208 PIN: 408535640#\nMore phone numbe
+ rs: https://tel.meet/dsk-ybsa-rcu?pin=6050381873546&hs=7\n\nLearn more abou
+ t Meet at: https://support.google.com/a/users/answer/9282720\n\nPlease do n
+ ot edit this section.\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20260501T180633Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Prezent - Andrei Stan
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:This is an event reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Bucharest:20260326T183000
+DTEND;TZID=Europe/Bucharest:20260326T192000
+RRULE:FREQ=WEEKLY;BYDAY=TH
+DTSTAMP:20260508T133050Z
+ORGANIZER;CN=ACS THE SQUARE:mailto:contact@thesquarechessclub.com
+UID:520u83j6euchatk7sc88rm0bpl@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=ra
+ zvancatalintudoroiu@gmail.com;X-NUM-GUESTS=0:mailto:razvancatalintudoroiu@g
+ mail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=ACS TH
+ E SQUARE;X-NUM-GUESTS=0:mailto:contact@thesquarechessclub.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/rfe-pbjf-vfq
+CREATED:20260324T153353Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/rf
+ e-pbjf-vfq\nOr dial: (RO) +40 31 227 7011 PIN: 469479578#\nMore phone numbe
+ rs: https://tel.meet/rfe-pbjf-vfq?pin=2397522430585&hs=7\n\nLearn more abou
+ t Meet at: https://support.google.com/a/users/answer/9282720\n\nPlease do n
+ ot edit this section.\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20260507T090554Z
+LOCATION:Strada Corbeni 34\, 030167 București\, Romania
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Simona - Chess Class
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:This is an event reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Bucharest:20260403T163000
+DTEND;TZID=Europe/Bucharest:20260403T180000
+DTSTAMP:20260508T133050Z
+ORGANIZER;CN=ACS THE SQUARE:mailto:contact@thesquarechessclub.com
+UID:427h1h8gi3uvsc1h2fbfeli0re@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=le
+ vvaj81@gmail.com;X-NUM-GUESTS=0:mailto:levvaj81@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=ACS TH
+ E SQUARE;X-NUM-GUESTS=0:mailto:contact@thesquarechessclub.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/wmn-ykft-fin
+RECURRENCE-ID;TZID=Europe/Bucharest:20260403T163000
+CREATED:20260324T162019Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/wm
+ n-ykft-fin\nOr dial: (RO) +40 31 227 7454 PIN: 612718543#\nMore phone numbe
+ rs: https://tel.meet/wmn-ykft-fin?pin=4501323452007&hs=7\n\nLearn more abou
+ t Meet at: https://support.google.com/a/users/answer/9282720\n\nPlease do n
+ ot edit this section.\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20260503T103631Z
+LOCATION:Strada Corbeni 34\, 030167 București\, Romania
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Marcu - lectie de sah\, prezent
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Bucharest:20260502T193000
+DTEND;TZID=Europe/Bucharest:20260502T210000
+DTSTAMP:20260508T133050Z
+ORGANIZER;CN=ACS THE SQUARE:mailto:contact@thesquarechessclub.com
+UID:304h8l56hvnj7vqn2s3nfgu7sk@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=le
+ vvaj81@gmail.com;X-NUM-GUESTS=0:mailto:levvaj81@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=ACS TH
+ E SQUARE;X-NUM-GUESTS=0:mailto:contact@thesquarechessclub.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/fms-gmvn-rmo
+RECURRENCE-ID;TZID=Europe/Bucharest:20260502T193000
+CREATED:20260324T162521Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/fm
+ s-gmvn-rmo\nOr dial: (RO) +40 31 227 7009 PIN: 272194015#\nMore phone numbe
+ rs: https://tel.meet/fms-gmvn-rmo?pin=7774316953637&hs=7\n\nLearn more abou
+ t Meet at: https://support.google.com/a/users/answer/9282720\n\nPlease do n
+ ot edit this section.\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20260506T115010Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:prezent - Barbu Simion - lectie de sah
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:This is an event reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Bucharest:20260417T180000
+DTEND;TZID=Europe/Bucharest:20260417T193000
+DTSTAMP:20260508T133050Z
+ORGANIZER;CN=ACS THE SQUARE:mailto:contact@thesquarechessclub.com
+UID:056eomqb3v75k05peoj8omsrj9@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=ACS TH
+ E SQUARE;X-NUM-GUESTS=0:mailto:contact@thesquarechessclub.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=le
+ vvaj81@gmail.com;X-NUM-GUESTS=0:mailto:levvaj81@gmail.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/jov-amch-thz
+RECURRENCE-ID;TZID=Europe/Bucharest:20260417T180000
+CREATED:20260324T162222Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/jo
+ v-amch-thz\nOr dial: (RO) +40 31 227 6789 PIN: 492641222#\nMore phone numbe
+ rs: https://tel.meet/jov-amch-thz?pin=7527255801116&hs=7\n\nLearn more abou
+ t Meet at: https://support.google.com/a/users/answer/9282720\n\nPlease do n
+ ot edit this section.\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20260507T221948Z
+LOCATION:Strada Corbeni 34\, 030167 București\, Romania
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:prezent - Ana - lectie de sah
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Bucharest:20260403T180000
+DTEND;TZID=Europe/Bucharest:20260403T193000
+DTSTAMP:20260508T133050Z
+ORGANIZER;CN=ACS THE SQUARE:mailto:contact@thesquarechessclub.com
+UID:056eomqb3v75k05peoj8omsrj9@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=ACS TH
+ E SQUARE;X-NUM-GUESTS=0:mailto:contact@thesquarechessclub.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=le
+ vvaj81@gmail.com;X-NUM-GUESTS=0:mailto:levvaj81@gmail.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/jov-amch-thz
+RECURRENCE-ID;TZID=Europe/Bucharest:20260403T180000
+CREATED:20260324T162222Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/jo
+ v-amch-thz\nOr dial: (RO) +40 31 227 6789 PIN: 492641222#\nMore phone numbe
+ rs: https://tel.meet/jov-amch-thz?pin=7527255801116&hs=7\n\nLearn more abou
+ t Meet at: https://support.google.com/a/users/answer/9282720\n\nPlease do n
+ ot edit this section.\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20260507T221948Z
+LOCATION:Strada Corbeni 34\, 030167 București\, Romania
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Ana - lectie de sah\, absent
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Bucharest:20250509T133000
+DTEND;TZID=Europe/Bucharest:20250509T150000
+DTSTAMP:20260508T133050Z
+ORGANIZER;CN=vladighita@gmail.com:mailto:vladighita@gmail.com
+UID:60rj4pb160smcb9pcorm2b9k6phm2bb164p3cbb4ccs66pj3ccp6ad3174@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=vladig
+ hita@gmail.com;X-NUM-GUESTS=0:mailto:vladighita@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=co
+ ntact@thesquarechessclub.com;X-NUM-GUESTS=0:mailto:contact@thesquarechesscl
+ ub.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/gjs-yrbr-foc
+RECURRENCE-ID;TZID=Europe/Bucharest:20250507T163000
+CREATED:20250116T143034Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/gj
+ s-yrbr-foc\n\nLearn more about Meet at: https://support.google.com/a/users/
+ answer/9282720\n\nPlease do not edit this section.\n-::~:~::~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20260409T182537Z
+SEQUENCE:2
+STATUS:CONFIRMED
+SUMMARY:Roman Musat @The Square
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Bucharest:20260327T180000
+DTEND;TZID=Europe/Bucharest:20260327T193000
+RRULE:FREQ=WEEKLY;BYDAY=FR
+DTSTAMP:20260508T133050Z
+ORGANIZER;CN=ACS THE SQUARE:mailto:contact@thesquarechessclub.com
+UID:056eomqb3v75k05peoj8omsrj9@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=ACS TH
+ E SQUARE;X-NUM-GUESTS=0:mailto:contact@thesquarechessclub.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=le
+ vvaj81@gmail.com;X-NUM-GUESTS=0:mailto:levvaj81@gmail.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/jov-amch-thz
+CREATED:20260324T162222Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/jo
+ v-amch-thz\nOr dial: (RO) +40 31 227 6789 PIN: 492641222#\nMore phone numbe
+ rs: https://tel.meet/jov-amch-thz?pin=7527255801116&hs=7\n\nLearn more abou
+ t Meet at: https://support.google.com/a/users/answer/9282720\n\nPlease do n
+ ot edit this section.\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20260507T221948Z
+LOCATION:Strada Corbeni 34\, 030167 București\, Romania
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Ana - lectie de sah
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Bucharest:20250122T163000
+DTEND;TZID=Europe/Bucharest:20250122T180000
+RRULE:FREQ=WEEKLY;WKST=TU
+EXDATE;TZID=Europe/Bucharest:20250219T163000
+EXDATE;TZID=Europe/Bucharest:20250226T163000
+EXDATE;TZID=Europe/Bucharest:20250528T163000
+EXDATE;TZID=Europe/Bucharest:20250702T163000
+EXDATE;TZID=Europe/Bucharest:20250730T163000
+EXDATE;TZID=Europe/Bucharest:20250806T163000
+EXDATE;TZID=Europe/Bucharest:20250813T163000
+EXDATE;TZID=Europe/Bucharest:20250820T163000
+EXDATE;TZID=Europe/Bucharest:20250903T163000
+EXDATE;TZID=Europe/Bucharest:20251022T163000
+EXDATE;TZID=Europe/Bucharest:20251105T163000
+EXDATE;TZID=Europe/Bucharest:20251224T163000
+EXDATE;TZID=Europe/Bucharest:20251231T163000
+EXDATE;TZID=Europe/Bucharest:20260128T163000
+EXDATE;TZID=Europe/Bucharest:20260204T163000
+EXDATE;TZID=Europe/Bucharest:20260325T163000
+EXDATE;TZID=Europe/Bucharest:20260218T163000
+DTSTAMP:20260508T133050Z
+ORGANIZER;CN=vladighita@gmail.com:mailto:vladighita@gmail.com
+UID:60rj4pb160smcb9pcorm2b9k6phm2bb164p3cbb4ccs66pj3ccp6ad3174@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=vladig
+ hita@gmail.com;X-NUM-GUESTS=0:mailto:vladighita@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=co
+ ntact@thesquarechessclub.com;X-NUM-GUESTS=0:mailto:contact@thesquarechesscl
+ ub.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/gjs-yrbr-foc
+CREATED:20250116T143034Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/gj
+ s-yrbr-foc\n\nLearn more about Meet at: https://support.google.com/a/users/
+ answer/9282720\n\nPlease do not edit this section.\n-::~:~::~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20260409T182537Z
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Roman Musat @The Square
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Bucharest:20260508T113000
+DTEND;TZID=Europe/Bucharest:20260508T130000
+RRULE:FREQ=WEEKLY;WKST=TU
+DTSTAMP:20260508T133050Z
+ORGANIZER;CN=vladighita@gmail.com:mailto:vladighita@gmail.com
+UID:60sj6e9i6dgj8bb26cr3ab9k6go32bb26os3ab9jcgpjgphnckrmachm70@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=co
+ ntact@thesquarechessclub.com;X-NUM-GUESTS=0:mailto:contact@thesquarechesscl
+ ub.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=vladig
+ hita@gmail.com;X-NUM-GUESTS=0:mailto:vladighita@gmail.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/xzt-tcrm-dui
+CREATED:20260504T181142Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/xz
+ t-tcrm-dui\n\nLearn more about Meet at: https://support.google.com/a/users/
+ answer/9282720\n\nPlease do not edit this section.\n-::~:~::~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20260504T181159Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Ovidiu
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Bucharest:20250129T163000
+DTEND;TZID=Europe/Bucharest:20250129T180000
+DTSTAMP:20260508T133050Z
+ORGANIZER;CN=vladighita@gmail.com:mailto:vladighita@gmail.com
+UID:60rj4pb160smcb9pcorm2b9k6phm2bb164p3cbb4ccs66pj3ccp6ad3174@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=vladig
+ hita@gmail.com;X-NUM-GUESTS=0:mailto:vladighita@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=co
+ ntact@thesquarechessclub.com;X-NUM-GUESTS=0:mailto:contact@thesquarechesscl
+ ub.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/gjs-yrbr-foc
+RECURRENCE-ID;TZID=Europe/Bucharest:20250129T163000
+CREATED:20250116T143034Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/gj
+ s-yrbr-foc\n\nLearn more about Meet at: https://support.google.com/a/users/
+ answer/9282720\n\nPlease do not edit this section.\n-::~:~::~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20260417T084149Z
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Roman Musat @The Square
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Bucharest:20260424T163000
+DTEND;TZID=Europe/Bucharest:20260424T180000
+DTSTAMP:20260508T133050Z
+ORGANIZER;CN=ACS THE SQUARE:mailto:contact@thesquarechessclub.com
+UID:0ucdbjj21tm4ibmg1qcdga81kn@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=le
+ vvaj81@gmail.com;X-NUM-GUESTS=0:mailto:levvaj81@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=ACS TH
+ E SQUARE;X-NUM-GUESTS=0:mailto:contact@thesquarechessclub.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/rea-nemu-jaq
+RECURRENCE-ID;TZID=Europe/Bucharest:20260424T163000
+CREATED:20260327T072442Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/re
+ a-nemu-jaq\nOr dial: (RO) +40 31 227 6766 PIN: 733835416#\nMore phone numbe
+ rs: https://tel.meet/rea-nemu-jaq?pin=2514822635750&hs=7\n\nLearn more abou
+ t Meet at: https://support.google.com/a/users/answer/9282720\n\nPlease do n
+ ot edit this section.\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20260507T102529Z
+LOCATION:Strada Corbeni 34\, 030167 București\, Romania
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:prezent - Iustin
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:This is an event reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Bucharest:20260327T163000
+DTEND;TZID=Europe/Bucharest:20260327T180000
+RRULE:FREQ=WEEKLY;BYDAY=FR
+DTSTAMP:20260508T133050Z
+ORGANIZER;CN=ACS THE SQUARE:mailto:contact@thesquarechessclub.com
+UID:6q71gnjqppbdg33q7dr3kgvjvb@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=le
+ vvaj81@gmail.com;X-NUM-GUESTS=0:mailto:levvaj81@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=ACS TH
+ E SQUARE;X-NUM-GUESTS=0:mailto:contact@thesquarechessclub.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/doo-ukvn-pui
+CREATED:20260324T162106Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/do
+ o-ukvn-pui\nOr dial: (RO) +40 31 227 7465 PIN: 440916965#\nMore phone numbe
+ rs: https://tel.meet/doo-ukvn-pui?pin=5058967384871&hs=7\n\nLearn more abou
+ t Meet at: https://support.google.com/a/users/answer/9282720\n\nPlease do n
+ ot edit this section.\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20260506T100021Z
+LOCATION:Strada Corbeni 34\, 030167 București\, Romania
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Andrei - lectie de sah
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Bucharest:20260305T130000
+DTEND;TZID=Europe/Bucharest:20260305T143000
+DTSTAMP:20260508T133050Z
+ORGANIZER;CN=vladighita@gmail.com:mailto:vladighita@gmail.com
+UID:60rj4pb160smcb9pcorm2b9k6phm2bb164p3cbb4ccs66pj3ccp6ad3174@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=vladig
+ hita@gmail.com;X-NUM-GUESTS=0:mailto:vladighita@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=co
+ ntact@thesquarechessclub.com;X-NUM-GUESTS=0:mailto:contact@thesquarechesscl
+ ub.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/gjs-yrbr-foc
+RECURRENCE-ID;TZID=Europe/Bucharest:20260304T163000
+CREATED:20250116T143034Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/gj
+ s-yrbr-foc\n\nLearn more about Meet at: https://support.google.com/a/users/
+ answer/9282720\n\nPlease do not edit this section.\n-::~:~::~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20260409T182537Z
+SEQUENCE:2
+STATUS:CONFIRMED
+SUMMARY:Roman Musat @The Square
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Bucharest:20260404T073000
+DTEND;TZID=Europe/Bucharest:20260404T210000
+DTSTAMP:20260508T133050Z
+ORGANIZER;CN=ACS THE SQUARE:mailto:contact@thesquarechessclub.com
+UID:77skqfb922cta723u6qstot4f1@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=le
+ vvaj81@gmail.com;X-NUM-GUESTS=0:mailto:levvaj81@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=ACS TH
+ E SQUARE;X-NUM-GUESTS=0:mailto:contact@thesquarechessclub.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/qek-gzrd-qpr
+RECURRENCE-ID;TZID=Europe/Bucharest:20260404T073000
+CREATED:20260324T162433Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/qe
+ k-gzrd-qpr\nOr dial: (RO) +40 31 227 6953 PIN: 654376971#\nMore phone numbe
+ rs: https://tel.meet/qek-gzrd-qpr?pin=5031918749055&hs=7\n\nLearn more abou
+ t Meet at: https://support.google.com/a/users/answer/9282720\n\nPlease do n
+ ot edit this section.\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20260503T012817Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Prezent - Razvan Tudoroiu
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:This is an event reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Bucharest:20260410T163000
+DTEND;TZID=Europe/Bucharest:20260410T180000
+DTSTAMP:20260508T133050Z
+ORGANIZER;CN=ACS THE SQUARE:mailto:contact@thesquarechessclub.com
+UID:0ucdbjj21tm4ibmg1qcdga81kn@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=le
+ vvaj81@gmail.com;X-NUM-GUESTS=0:mailto:levvaj81@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=ACS TH
+ E SQUARE;X-NUM-GUESTS=0:mailto:contact@thesquarechessclub.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/rea-nemu-jaq
+RECURRENCE-ID;TZID=Europe/Bucharest:20260410T163000
+CREATED:20260327T072442Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/re
+ a-nemu-jaq\nOr dial: (RO) +40 31 227 6766 PIN: 733835416#\nMore phone numbe
+ rs: https://tel.meet/rea-nemu-jaq?pin=2514822635750&hs=7\n\nLearn more abou
+ t Meet at: https://support.google.com/a/users/answer/9282720\n\nPlease do n
+ ot edit this section.\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20260507T102529Z
+LOCATION:Strada Corbeni 34\, 030167 București\, Romania
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:absent - Iustin
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:This is an event reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260613
+DTEND;VALUE=DATE:20260614
+DTSTAMP:20260508T133050Z
+ORGANIZER;CN=ACS THE SQUARE:mailto:contact@thesquarechessclub.com
+UID:4jmobdka30q589faogocvg6nvq@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=ACS TH
+ E SQUARE;X-NUM-GUESTS=0:mailto:contact@thesquarechessclub.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=st
+ anciucristiana6@gmail.com;X-NUM-GUESTS=0:mailto:stanciucristiana6@gmail.com
+CREATED:20260501T145040Z
+LAST-MODIFIED:20260501T145040Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Event politicieni 
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Bucharest:20260418T193000
+DTEND;TZID=Europe/Bucharest:20260418T210000
+DTSTAMP:20260508T133050Z
+ORGANIZER;CN=ACS THE SQUARE:mailto:contact@thesquarechessclub.com
+UID:3ugbg3a1nr8gfsgcn8fmhiq1k3@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=le
+ vvaj81@gmail.com;X-NUM-GUESTS=0:mailto:levvaj81@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=ACS TH
+ E SQUARE;X-NUM-GUESTS=0:mailto:contact@thesquarechessclub.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/dsk-ybsa-rcu
+RECURRENCE-ID;TZID=Europe/Bucharest:20260418T193000
+CREATED:20260324T162610Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/ds
+ k-ybsa-rcu\nOr dial: (RO) +40 31 227 7208 PIN: 408535640#\nMore phone numbe
+ rs: https://tel.meet/dsk-ybsa-rcu?pin=6050381873546&hs=7\n\nLearn more abou
+ t Meet at: https://support.google.com/a/users/answer/9282720\n\nPlease do n
+ ot edit this section.\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20260501T180633Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:absent - Andrei Stan
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:This is an event reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Bucharest:20250709T160000
+DTEND;TZID=Europe/Bucharest:20250709T173000
+DTSTAMP:20260508T133050Z
+ORGANIZER;CN=vladighita@gmail.com:mailto:vladighita@gmail.com
+UID:60rj4pb160smcb9pcorm2b9k6phm2bb164p3cbb4ccs66pj3ccp6ad3174@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=vladig
+ hita@gmail.com;X-NUM-GUESTS=0:mailto:vladighita@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=co
+ ntact@thesquarechessclub.com;X-NUM-GUESTS=0:mailto:contact@thesquarechesscl
+ ub.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/gjs-yrbr-foc
+RECURRENCE-ID;TZID=Europe/Bucharest:20250709T163000
+CREATED:20250116T143034Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/gj
+ s-yrbr-foc\n\nLearn more about Meet at: https://support.google.com/a/users/
+ answer/9282720\n\nPlease do not edit this section.\n-::~:~::~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20260409T182537Z
+SEQUENCE:2
+STATUS:CONFIRMED
+SUMMARY:Roman Musat @The Square
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Bucharest:20260417T163000
+DTEND;TZID=Europe/Bucharest:20260417T180000
+DTSTAMP:20260508T133050Z
+ORGANIZER;CN=ACS THE SQUARE:mailto:contact@thesquarechessclub.com
+UID:427h1h8gi3uvsc1h2fbfeli0re@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=le
+ vvaj81@gmail.com;X-NUM-GUESTS=0:mailto:levvaj81@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=ACS TH
+ E SQUARE;X-NUM-GUESTS=0:mailto:contact@thesquarechessclub.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/wmn-ykft-fin
+RECURRENCE-ID;TZID=Europe/Bucharest:20260417T163000
+CREATED:20260324T162019Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/wm
+ n-ykft-fin\nOr dial: (RO) +40 31 227 7454 PIN: 612718543#\nMore phone numbe
+ rs: https://tel.meet/wmn-ykft-fin?pin=4501323452007&hs=7\n\nLearn more abou
+ t Meet at: https://support.google.com/a/users/answer/9282720\n\nPlease do n
+ ot edit this section.\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20260503T103631Z
+LOCATION:Strada Corbeni 34\, 030167 București\, Romania
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:prezent - Marcu - lectie de sah
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Bucharest:20260327T163000
+DTEND;TZID=Europe/Bucharest:20260327T180000
+RRULE:FREQ=WEEKLY;BYDAY=FR
+DTSTAMP:20260508T133050Z
+ORGANIZER;CN=ACS THE SQUARE:mailto:contact@thesquarechessclub.com
+UID:0ucdbjj21tm4ibmg1qcdga81kn@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=le
+ vvaj81@gmail.com;X-NUM-GUESTS=0:mailto:levvaj81@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=ACS TH
+ E SQUARE;X-NUM-GUESTS=0:mailto:contact@thesquarechessclub.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/rea-nemu-jaq
+CREATED:20260327T072442Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/re
+ a-nemu-jaq\nOr dial: (RO) +40 31 227 6766 PIN: 733835416#\nMore phone numbe
+ rs: https://tel.meet/rea-nemu-jaq?pin=2514822635750&hs=7\n\nLearn more abou
+ t Meet at: https://support.google.com/a/users/answer/9282720\n\nPlease do n
+ ot edit this section.\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20260507T102529Z
+LOCATION:Strada Corbeni 34\, 030167 București\, Romania
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Iustin
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:This is an event reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Bucharest:20260115T163000
+DTEND;TZID=Europe/Bucharest:20260115T180000
+DTSTAMP:20260508T133050Z
+ORGANIZER;CN=vladighita@gmail.com:mailto:vladighita@gmail.com
+UID:60rj4pb160smcb9pcorm2b9k6phm2bb164p3cbb4ccs66pj3ccp6ad3174@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=vladig
+ hita@gmail.com;X-NUM-GUESTS=0:mailto:vladighita@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=co
+ ntact@thesquarechessclub.com;X-NUM-GUESTS=0:mailto:contact@thesquarechesscl
+ ub.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/gjs-yrbr-foc
+RECURRENCE-ID;TZID=Europe/Bucharest:20260114T163000
+CREATED:20250116T143034Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/gj
+ s-yrbr-foc\n\nLearn more about Meet at: https://support.google.com/a/users/
+ answer/9282720\n\nPlease do not edit this section.\n-::~:~::~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20260409T182537Z
+SEQUENCE:2
+STATUS:CONFIRMED
+SUMMARY:Roman Musat @The Square
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Bucharest:20260326T200000
+DTEND;TZID=Europe/Bucharest:20260326T212000
+RRULE:FREQ=WEEKLY;BYDAY=TH
+DTSTAMP:20260508T133050Z
+ORGANIZER;CN=ACS THE SQUARE:mailto:contact@thesquarechessclub.com
+UID:43ure455lg28j75hifm7akvb4l@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=ra
+ zvancatalintudoroiu@gmail.com;X-NUM-GUESTS=0:mailto:razvancatalintudoroiu@g
+ mail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=ACS TH
+ E SQUARE;X-NUM-GUESTS=0:mailto:contact@thesquarechessclub.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/cmi-rybr-xrk
+CREATED:20260324T151026Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/cm
+ i-rybr-xrk\nOr dial: (RO) +40 31 227 7300 PIN: 106084006#\nMore phone numbe
+ rs: https://tel.meet/cmi-rybr-xrk?pin=8213340335733&hs=7\n\nLearn more abou
+ t Meet at: https://support.google.com/a/users/answer/9282720\n\nPlease do n
+ ot edit this section.\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20260507T063546Z
+LOCATION:Corbeni nr 34
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Silviu - Chess Time
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:This is an event reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Bucharest:20260327T163000
+DTEND;TZID=Europe/Bucharest:20260327T180000
+RRULE:FREQ=WEEKLY;BYDAY=FR
+DTSTAMP:20260508T133050Z
+ORGANIZER;CN=ACS THE SQUARE:mailto:contact@thesquarechessclub.com
+UID:427h1h8gi3uvsc1h2fbfeli0re@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=le
+ vvaj81@gmail.com;X-NUM-GUESTS=0:mailto:levvaj81@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=ACS TH
+ E SQUARE;X-NUM-GUESTS=0:mailto:contact@thesquarechessclub.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/wmn-ykft-fin
+CREATED:20260324T162019Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/wm
+ n-ykft-fin\nOr dial: (RO) +40 31 227 7454 PIN: 612718543#\nMore phone numbe
+ rs: https://tel.meet/wmn-ykft-fin?pin=4501323452007&hs=7\n\nLearn more abou
+ t Meet at: https://support.google.com/a/users/answer/9282720\n\nPlease do n
+ ot edit this section.\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20260503T103631Z
+LOCATION:Strada Corbeni 34\, 030167 București\, Romania
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Marcu - lectie de sah
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Bucharest:20260211T163000
+DTEND;TZID=Europe/Bucharest:20260211T180000
+DTSTAMP:20260508T133050Z
+ORGANIZER;CN=vladighita@gmail.com:mailto:vladighita@gmail.com
+UID:60rj4pb160smcb9pcorm2b9k6phm2bb164p3cbb4ccs66pj3ccp6ad3174@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=vladig
+ hita@gmail.com;X-NUM-GUESTS=0:mailto:vladighita@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=co
+ ntact@thesquarechessclub.com;X-NUM-GUESTS=0:mailto:contact@thesquarechesscl
+ ub.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/gjs-yrbr-foc
+RECURRENCE-ID;TZID=Europe/Bucharest:20260211T163000
+CREATED:20250116T143034Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/gj
+ s-yrbr-foc\n\nLearn more about Meet at: https://support.google.com/a/users/
+ answer/9282720\n\nPlease do not edit this section.\n-::~:~::~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20260409T182537Z
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Roman
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Bucharest:20260504T130000
+DTEND;TZID=Europe/Bucharest:20260504T143000
+RRULE:FREQ=WEEKLY;WKST=TU
+EXDATE;TZID=Europe/Bucharest:20260608T130000
+DTSTAMP:20260508T133050Z
+ORGANIZER;CN=vladighita@gmail.com:mailto:vladighita@gmail.com
+UID:c8om4chp74qj8b9ic9h36b9kcgrjebb1corjib9p6hj3aphp6ssmachh60@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=co
+ ntact@thesquarechessclub.com;X-NUM-GUESTS=0:mailto:contact@thesquarechesscl
+ ub.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=vladig
+ hita@gmail.com;X-NUM-GUESTS=0:mailto:vladighita@gmail.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/jnr-zwmi-apj
+CREATED:20260503T093124Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/jn
+ r-zwmi-apj\n\nLearn more about Meet at: https://support.google.com/a/users/
+ answer/9282720\n\nPlease do not edit this section.\n-::~:~::~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20260506T073122Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Ovidiu
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260427T100000Z
+DTEND:20260427T113000Z
+DTSTAMP:20260508T133050Z
+ORGANIZER;CN=vladighita@gmail.com:mailto:vladighita@gmail.com
+UID:74s34oph74q30bb169h68b9kcdgmab9ocpi3abb468p38dpl60qm2or3c4@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=co
+ ntact@thesquarechessclub.com;X-NUM-GUESTS=0:mailto:contact@thesquarechesscl
+ ub.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=vladig
+ hita@gmail.com;X-NUM-GUESTS=0:mailto:vladighita@gmail.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/yrs-knsj-jix
+CREATED:20260427T093302Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/yr
+ s-knsj-jix\n\nLearn more about Meet at: https://support.google.com/a/users/
+ answer/9282720\n\nPlease do not edit this section.\n-::~:~::~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20260427T093311Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Ovidiu
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Bucharest:20260403T163000
+DTEND;TZID=Europe/Bucharest:20260403T180000
+DTSTAMP:20260508T133050Z
+ORGANIZER;CN=ACS THE SQUARE:mailto:contact@thesquarechessclub.com
+UID:0ucdbjj21tm4ibmg1qcdga81kn@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=le
+ vvaj81@gmail.com;X-NUM-GUESTS=0:mailto:levvaj81@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=ACS TH
+ E SQUARE;X-NUM-GUESTS=0:mailto:contact@thesquarechessclub.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/rea-nemu-jaq
+RECURRENCE-ID;TZID=Europe/Bucharest:20260403T163000
+CREATED:20260327T072442Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/re
+ a-nemu-jaq\nOr dial: (RO) +40 31 227 6766 PIN: 733835416#\nMore phone numbe
+ rs: https://tel.meet/rea-nemu-jaq?pin=2514822635750&hs=7\n\nLearn more abou
+ t Meet at: https://support.google.com/a/users/answer/9282720\n\nPlease do n
+ ot edit this section.\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20260507T102529Z
+LOCATION:Strada Corbeni 34\, 030167 București\, Romania
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Iustin\, prezent
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:This is an event reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Bucharest:20260312T130000
+DTEND;TZID=Europe/Bucharest:20260312T143000
+DTSTAMP:20260508T133050Z
+ORGANIZER;CN=vladighita@gmail.com:mailto:vladighita@gmail.com
+UID:60rj4pb160smcb9pcorm2b9k6phm2bb164p3cbb4ccs66pj3ccp6ad3174@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=vladig
+ hita@gmail.com;X-NUM-GUESTS=0:mailto:vladighita@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=co
+ ntact@thesquarechessclub.com;X-NUM-GUESTS=0:mailto:contact@thesquarechesscl
+ ub.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/gjs-yrbr-foc
+RECURRENCE-ID;TZID=Europe/Bucharest:20260311T163000
+CREATED:20250116T143034Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/gj
+ s-yrbr-foc\n\nLearn more about Meet at: https://support.google.com/a/users/
+ answer/9282720\n\nPlease do not edit this section.\n-::~:~::~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20260409T182537Z
+SEQUENCE:2
+STATUS:CONFIRMED
+SUMMARY:Roman Musat @The Square
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Bucharest:20260425T193000
+DTEND;TZID=Europe/Bucharest:20260425T210000
+DTSTAMP:20260508T133050Z
+ORGANIZER;CN=ACS THE SQUARE:mailto:contact@thesquarechessclub.com
+UID:3ugbg3a1nr8gfsgcn8fmhiq1k3@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=le
+ vvaj81@gmail.com;X-NUM-GUESTS=0:mailto:levvaj81@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=ACS TH
+ E SQUARE;X-NUM-GUESTS=0:mailto:contact@thesquarechessclub.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/dsk-ybsa-rcu
+RECURRENCE-ID;TZID=Europe/Bucharest:20260425T193000
+CREATED:20260324T162610Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/ds
+ k-ybsa-rcu\nOr dial: (RO) +40 31 227 7208 PIN: 408535640#\nMore phone numbe
+ rs: https://tel.meet/dsk-ybsa-rcu?pin=6050381873546&hs=7\n\nLearn more abou
+ t Meet at: https://support.google.com/a/users/answer/9282720\n\nPlease do n
+ ot edit this section.\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20260501T180633Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:absent - Andrei Stan
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:This is an event reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Bucharest:20250429T163000
+DTEND;TZID=Europe/Bucharest:20250429T180000
+DTSTAMP:20260508T133050Z
+ORGANIZER;CN=vladighita@gmail.com:mailto:vladighita@gmail.com
+UID:60rj4pb160smcb9pcorm2b9k6phm2bb164p3cbb4ccs66pj3ccp6ad3174@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=vladig
+ hita@gmail.com;X-NUM-GUESTS=0:mailto:vladighita@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=co
+ ntact@thesquarechessclub.com;X-NUM-GUESTS=0:mailto:contact@thesquarechesscl
+ ub.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/gjs-yrbr-foc
+RECURRENCE-ID;TZID=Europe/Bucharest:20250430T163000
+CREATED:20250116T143034Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/gj
+ s-yrbr-foc\n\nLearn more about Meet at: https://support.google.com/a/users/
+ answer/9282720\n\nPlease do not edit this section.\n-::~:~::~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20260409T182537Z
+SEQUENCE:2
+STATUS:CONFIRMED
+SUMMARY:Roman Musat @The Square
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Bucharest:20260403T160000
+DTEND;TZID=Europe/Bucharest:20260403T173000
+RRULE:FREQ=WEEKLY;WKST=TU
+EXDATE;TZID=Europe/Bucharest:20260410T160000
+EXDATE;TZID=Europe/Bucharest:20260501T160000
+DTSTAMP:20260508T133050Z
+ORGANIZER;CN=vladighita@gmail.com:mailto:vladighita@gmail.com
+UID:ugt3f5ru7a50tj669lu0v529dc@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=vladig
+ hita@gmail.com;X-NUM-GUESTS=0:mailto:vladighita@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=co
+ ntact@thesquarechessclub.com;X-NUM-GUESTS=0:mailto:contact@thesquarechesscl
+ ub.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/wvm-hfst-ptk
+CREATED:20250925T183103Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/wv
+ m-hfst-ptk\n\nLearn more about Meet at: https://support.google.com/a/users/
+ answer/9282720\n\nPlease do not edit this section.\n-::~:~::~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20260501T090336Z
+SEQUENCE:2
+STATUS:CONFIRMED
+SUMMARY:Bogdan T.
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Bucharest:20260417T163000
+DTEND;TZID=Europe/Bucharest:20260417T180000
+DTSTAMP:20260508T133050Z
+ORGANIZER;CN=ACS THE SQUARE:mailto:contact@thesquarechessclub.com
+UID:0ucdbjj21tm4ibmg1qcdga81kn@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=le
+ vvaj81@gmail.com;X-NUM-GUESTS=0:mailto:levvaj81@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=ACS TH
+ E SQUARE;X-NUM-GUESTS=0:mailto:contact@thesquarechessclub.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/rea-nemu-jaq
+RECURRENCE-ID;TZID=Europe/Bucharest:20260417T163000
+CREATED:20260327T072442Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/re
+ a-nemu-jaq\nOr dial: (RO) +40 31 227 6766 PIN: 733835416#\nMore phone numbe
+ rs: https://tel.meet/rea-nemu-jaq?pin=2514822635750&hs=7\n\nLearn more abou
+ t Meet at: https://support.google.com/a/users/answer/9282720\n\nPlease do n
+ ot edit this section.\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20260507T102529Z
+LOCATION:Strada Corbeni 34\, 030167 București\, Romania
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:prezent - Iustin
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:This is an event reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Bucharest:20260326T200000
+DTEND;TZID=Europe/Bucharest:20260326T212000
+RRULE:FREQ=WEEKLY;BYDAY=TH
+DTSTAMP:20260508T133050Z
+ORGANIZER;CN=ACS THE SQUARE:mailto:contact@thesquarechessclub.com
+UID:7esplj4c4tkj7b4rinnf2nurd1@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=ra
+ zvancatalintudoroiu@gmail.com;X-NUM-GUESTS=0:mailto:razvancatalintudoroiu@g
+ mail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=sa
+ shavalcan@gmail.com;X-NUM-GUESTS=0:mailto:sashavalcan@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=ACS TH
+ E SQUARE;X-NUM-GUESTS=0:mailto:contact@thesquarechessclub.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/vad-joet-zqw
+CREATED:20260324T150537Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/va
+ d-joet-zqw\nOr dial: (RO) +40 31 227 6968 PIN: 609026297#\nMore phone numbe
+ rs: https://tel.meet/vad-joet-zqw?pin=5782679984933&hs=7\n\nLearn more abou
+ t Meet at: https://support.google.com/a/users/answer/9282720\n\nPlease do n
+ ot edit this section.\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20260506T195217Z
+LOCATION:Strada Corbeni 34\, 030167 București\, Romania
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Sasha - Chess Time
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:This is an event reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Bucharest:20260410T180000
+DTEND;TZID=Europe/Bucharest:20260410T193000
+DTSTAMP:20260508T133050Z
+ORGANIZER;CN=ACS THE SQUARE:mailto:contact@thesquarechessclub.com
+UID:056eomqb3v75k05peoj8omsrj9@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=ACS TH
+ E SQUARE;X-NUM-GUESTS=0:mailto:contact@thesquarechessclub.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=le
+ vvaj81@gmail.com;X-NUM-GUESTS=0:mailto:levvaj81@gmail.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/jov-amch-thz
+RECURRENCE-ID;TZID=Europe/Bucharest:20260410T180000
+CREATED:20260324T162222Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/jo
+ v-amch-thz\nOr dial: (RO) +40 31 227 6789 PIN: 492641222#\nMore phone numbe
+ rs: https://tel.meet/jov-amch-thz?pin=7527255801116&hs=7\n\nLearn more abou
+ t Meet at: https://support.google.com/a/users/answer/9282720\n\nPlease do n
+ ot edit this section.\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20260507T221948Z
+LOCATION:Strada Corbeni 34\, 030167 București\, Romania
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:absent - Ana - lectie de sah
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Bucharest:20260326T183000
+DTEND;TZID=Europe/Bucharest:20260326T195000
+RRULE:FREQ=WEEKLY;BYDAY=TH
+DTSTAMP:20260508T133050Z
+ORGANIZER;CN=ACS THE SQUARE:mailto:contact@thesquarechessclub.com
+UID:3o4h7b90fqar1f5t86bsl8kvsi@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=ra
+ zvancatalintudoroiu@gmail.com;X-NUM-GUESTS=0:mailto:razvancatalintudoroiu@g
+ mail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=ACS TH
+ E SQUARE;X-NUM-GUESTS=0:mailto:contact@thesquarechessclub.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=an
+ drei.badila10@gmail.com;X-NUM-GUESTS=0:mailto:andrei.badila10@gmail.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/hiw-rfqw-qps
+CREATED:20260324T152842Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/hi
+ w-rfqw-qps\nOr dial: (RO) +40 31 227 6571 PIN: 396673664#\nMore phone numbe
+ rs: https://tel.meet/hiw-rfqw-qps?pin=5811721516375&hs=7\n\nLearn more abou
+ t Meet at: https://support.google.com/a/users/answer/9282720\n\nPlease do n
+ ot edit this section.\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20260507T115331Z
+LOCATION:Strada Corbeni 34\, 030167 București\, Romania
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Andrei - Chess Class
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:This is an event reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Bucharest:20260404T193000
+DTEND;TZID=Europe/Bucharest:20260404T210000
+DTSTAMP:20260508T133050Z
+ORGANIZER;CN=ACS THE SQUARE:mailto:contact@thesquarechessclub.com
+UID:304h8l56hvnj7vqn2s3nfgu7sk@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=le
+ vvaj81@gmail.com;X-NUM-GUESTS=0:mailto:levvaj81@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=ACS TH
+ E SQUARE;X-NUM-GUESTS=0:mailto:contact@thesquarechessclub.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/fms-gmvn-rmo
+RECURRENCE-ID;TZID=Europe/Bucharest:20260404T193000
+CREATED:20260324T162521Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/fm
+ s-gmvn-rmo\nOr dial: (RO) +40 31 227 7009 PIN: 272194015#\nMore phone numbe
+ rs: https://tel.meet/fms-gmvn-rmo?pin=7774316953637&hs=7\n\nLearn more abou
+ t Meet at: https://support.google.com/a/users/answer/9282720\n\nPlease do n
+ ot edit this section.\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20260506T115010Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Prezent - Barbu Simion - lectie de sah
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:This is an event reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260407T100000Z
+DTEND:20260407T113000Z
+DTSTAMP:20260508T133050Z
+ORGANIZER;CN=vladighita@gmail.com:mailto:vladighita@gmail.com
+UID:2n9c39kcivs3scbv32co2pijv7@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=co
+ ntact@thesquarechessclub.com;X-NUM-GUESTS=0:mailto:contact@thesquarechesscl
+ ub.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=vladig
+ hita@gmail.com;X-NUM-GUESTS=0:mailto:vladighita@gmail.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/wuz-nwcr-jha
+CREATED:20260405T145230Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/wu
+ z-nwcr-jha\n\nLearn more about Meet at: https://support.google.com/a/users/
+ answer/9282720\n\nPlease do not edit this section.\n-::~:~::~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20260409T182527Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Ovidiu
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Bucharest:20251218T163000
+DTEND;TZID=Europe/Bucharest:20251218T182000
+DTSTAMP:20260508T133050Z
+ORGANIZER;CN=vladighita@gmail.com:mailto:vladighita@gmail.com
+UID:60rj4pb160smcb9pcorm2b9k6phm2bb164p3cbb4ccs66pj3ccp6ad3174@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=vladig
+ hita@gmail.com;X-NUM-GUESTS=0:mailto:vladighita@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=co
+ ntact@thesquarechessclub.com;X-NUM-GUESTS=0:mailto:contact@thesquarechesscl
+ ub.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/gjs-yrbr-foc
+RECURRENCE-ID;TZID=Europe/Bucharest:20251217T163000
+CREATED:20250116T143034Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/gj
+ s-yrbr-foc\n\nLearn more about Meet at: https://support.google.com/a/users/
+ answer/9282720\n\nPlease do not edit this section.\n-::~:~::~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20260409T182537Z
+SEQUENCE:2
+STATUS:CONFIRMED
+SUMMARY:Roman Musat @The Square
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Bucharest:20260425T193000
+DTEND;TZID=Europe/Bucharest:20260425T210000
+DTSTAMP:20260508T133050Z
+ORGANIZER;CN=ACS THE SQUARE:mailto:contact@thesquarechessclub.com
+UID:304h8l56hvnj7vqn2s3nfgu7sk@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=le
+ vvaj81@gmail.com;X-NUM-GUESTS=0:mailto:levvaj81@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=ACS TH
+ E SQUARE;X-NUM-GUESTS=0:mailto:contact@thesquarechessclub.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/fms-gmvn-rmo
+RECURRENCE-ID;TZID=Europe/Bucharest:20260425T193000
+CREATED:20260324T162521Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/fm
+ s-gmvn-rmo\nOr dial: (RO) +40 31 227 7009 PIN: 272194015#\nMore phone numbe
+ rs: https://tel.meet/fms-gmvn-rmo?pin=7774316953637&hs=7\n\nLearn more abou
+ t Meet at: https://support.google.com/a/users/answer/9282720\n\nPlease do n
+ ot edit this section.\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20260506T115010Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:prezent - Barbu Simion - lectie de sah
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:This is an event reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Bucharest:20260410T163000
+DTEND;TZID=Europe/Bucharest:20260410T180000
+DTSTAMP:20260508T133050Z
+ORGANIZER;CN=ACS THE SQUARE:mailto:contact@thesquarechessclub.com
+UID:6q71gnjqppbdg33q7dr3kgvjvb@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=le
+ vvaj81@gmail.com;X-NUM-GUESTS=0:mailto:levvaj81@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=ACS TH
+ E SQUARE;X-NUM-GUESTS=0:mailto:contact@thesquarechessclub.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/doo-ukvn-pui
+RECURRENCE-ID;TZID=Europe/Bucharest:20260410T163000
+CREATED:20260324T162106Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/do
+ o-ukvn-pui\nOr dial: (RO) +40 31 227 7465 PIN: 440916965#\nMore phone numbe
+ rs: https://tel.meet/doo-ukvn-pui?pin=5058967384871&hs=7\n\nLearn more abou
+ t Meet at: https://support.google.com/a/users/answer/9282720\n\nPlease do n
+ ot edit this section.\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20260506T100021Z
+LOCATION:Strada Corbeni 34\, 030167 București\, Romania
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:absent - Andrei - lectie de sah
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Bucharest:20260410T163000
+DTEND;TZID=Europe/Bucharest:20260410T180000
+DTSTAMP:20260508T133050Z
+ORGANIZER;CN=ACS THE SQUARE:mailto:contact@thesquarechessclub.com
+UID:427h1h8gi3uvsc1h2fbfeli0re@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=le
+ vvaj81@gmail.com;X-NUM-GUESTS=0:mailto:levvaj81@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=ACS TH
+ E SQUARE;X-NUM-GUESTS=0:mailto:contact@thesquarechessclub.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/wmn-ykft-fin
+RECURRENCE-ID;TZID=Europe/Bucharest:20260410T163000
+CREATED:20260324T162019Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/wm
+ n-ykft-fin\nOr dial: (RO) +40 31 227 7454 PIN: 612718543#\nMore phone numbe
+ rs: https://tel.meet/wmn-ykft-fin?pin=4501323452007&hs=7\n\nLearn more abou
+ t Meet at: https://support.google.com/a/users/answer/9282720\n\nPlease do n
+ ot edit this section.\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20260503T103631Z
+LOCATION:Strada Corbeni 34\, 030167 București\, Romania
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:prezent - Marcu - lectie de sah
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Bucharest:20260403T163000
+DTEND;TZID=Europe/Bucharest:20260403T180000
+DTSTAMP:20260508T133050Z
+ORGANIZER;CN=ACS THE SQUARE:mailto:contact@thesquarechessclub.com
+UID:6q71gnjqppbdg33q7dr3kgvjvb@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=le
+ vvaj81@gmail.com;X-NUM-GUESTS=0:mailto:levvaj81@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=ACS TH
+ E SQUARE;X-NUM-GUESTS=0:mailto:contact@thesquarechessclub.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/doo-ukvn-pui
+RECURRENCE-ID;TZID=Europe/Bucharest:20260403T163000
+CREATED:20260324T162106Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/do
+ o-ukvn-pui\nOr dial: (RO) +40 31 227 7465 PIN: 440916965#\nMore phone numbe
+ rs: https://tel.meet/doo-ukvn-pui?pin=5058967384871&hs=7\n\nLearn more abou
+ t Meet at: https://support.google.com/a/users/answer/9282720\n\nPlease do n
+ ot edit this section.\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20260506T100021Z
+LOCATION:Strada Corbeni 34\, 030167 București\, Romania
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Andrei - lectie de sah\, prezent
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Bucharest:20250725T163000
+DTEND;TZID=Europe/Bucharest:20250725T180000
+DTSTAMP:20260508T133050Z
+ORGANIZER;CN=vladighita@gmail.com:mailto:vladighita@gmail.com
+UID:60rj4pb160smcb9pcorm2b9k6phm2bb164p3cbb4ccs66pj3ccp6ad3174@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=vladig
+ hita@gmail.com;X-NUM-GUESTS=0:mailto:vladighita@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=co
+ ntact@thesquarechessclub.com;X-NUM-GUESTS=0:mailto:contact@thesquarechesscl
+ ub.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/gjs-yrbr-foc
+RECURRENCE-ID;TZID=Europe/Bucharest:20250723T163000
+CREATED:20250116T143034Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/gj
+ s-yrbr-foc\n\nLearn more about Meet at: https://support.google.com/a/users/
+ answer/9282720\n\nPlease do not edit this section.\n-::~:~::~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20260409T182537Z
+SEQUENCE:2
+STATUS:CONFIRMED
+SUMMARY:Roman Musat @The Square
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Bucharest:20260326T183000
+DTEND;TZID=Europe/Bucharest:20260326T195000
+RRULE:FREQ=WEEKLY;BYDAY=TH
+DTSTAMP:20260508T133050Z
+ORGANIZER;CN=ACS THE SQUARE:mailto:contact@thesquarechessclub.com
+UID:41b0fnuaq2a48n4igvf0g7ajib@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=ra
+ zvancatalintudoroiu@gmail.com;X-NUM-GUESTS=0:mailto:razvancatalintudoroiu@g
+ mail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=ACS TH
+ E SQUARE;X-NUM-GUESTS=0:mailto:contact@thesquarechessclub.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/qfx-oija-dwm
+CREATED:20260324T153009Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/qf
+ x-oija-dwm\nOr dial: (RO) +40 31 227 6976 PIN: 277862176#\nMore phone numbe
+ rs: https://tel.meet/qfx-oija-dwm?pin=6070909229021&hs=7\n\nLearn more abou
+ t Meet at: https://support.google.com/a/users/answer/9282720\n\nPlease do n
+ ot edit this section.\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20260507T121345Z
+LOCATION:Strada Corbeni nr. 11\, 020781 București\, Romania
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Ileana - Chess Classes
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:This is an event reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Bucharest:20250926T163000
+DTEND;TZID=Europe/Bucharest:20250926T180000
+DTSTAMP:20260508T133050Z
+ORGANIZER;CN=vladighita@gmail.com:mailto:vladighita@gmail.com
+UID:60rj4pb160smcb9pcorm2b9k6phm2bb164p3cbb4ccs66pj3ccp6ad3174@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=vladig
+ hita@gmail.com;X-NUM-GUESTS=0:mailto:vladighita@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=co
+ ntact@thesquarechessclub.com;X-NUM-GUESTS=0:mailto:contact@thesquarechesscl
+ ub.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/gjs-yrbr-foc
+RECURRENCE-ID;TZID=Europe/Bucharest:20250924T163000
+CREATED:20250116T143034Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/gj
+ s-yrbr-foc\n\nLearn more about Meet at: https://support.google.com/a/users/
+ answer/9282720\n\nPlease do not edit this section.\n-::~:~::~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20260409T182537Z
+SEQUENCE:2
+STATUS:CONFIRMED
+SUMMARY:Roman Musat @The Square
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Bucharest:20260326T183000
+DTEND;TZID=Europe/Bucharest:20260326T192000
+RRULE:FREQ=WEEKLY;BYDAY=TH
+DTSTAMP:20260508T133050Z
+ORGANIZER;CN=ACS THE SQUARE:mailto:contact@thesquarechessclub.com
+UID:7hf8s7cam7jfp1sbjfe2s07g74@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=ra
+ zvancatalintudoroiu@gmail.com;X-NUM-GUESTS=0:mailto:razvancatalintudoroiu@g
+ mail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=ACS TH
+ E SQUARE;X-NUM-GUESTS=0:mailto:contact@thesquarechessclub.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/kqt-opkm-pqp
+CREATED:20260324T153242Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/kq
+ t-opkm-pqp\nOr dial: (RO) +40 31 227 6764 PIN: 358401901#\nMore phone numbe
+ rs: https://tel.meet/kqt-opkm-pqp?pin=6647196038096&hs=7\n\nLearn more abou
+ t Meet at: https://support.google.com/a/users/answer/9282720\n\nPlease do n
+ ot edit this section.\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20260506T234335Z
+LOCATION:Strada Corbeni 34\, 030167 București\, Romania
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Raluca - Chess Class
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:This is an event reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Bucharest:20260326T200000
+DTEND;TZID=Europe/Bucharest:20260326T212000
+RRULE:FREQ=WEEKLY;BYDAY=TH
+DTSTAMP:20260508T133050Z
+ORGANIZER;CN=ACS THE SQUARE:mailto:contact@thesquarechessclub.com
+UID:5dbo2heo58266okbhdkid4midu@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=ra
+ zvancatalintudoroiu@gmail.com;X-NUM-GUESTS=0:mailto:razvancatalintudoroiu@g
+ mail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=ACS TH
+ E SQUARE;X-NUM-GUESTS=0:mailto:contact@thesquarechessclub.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/tib-dwcj-ayb
+CREATED:20260324T152637Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/ti
+ b-dwcj-ayb\nOr dial: (RO) +40 31 227 6715 PIN: 939664112#\nMore phone numbe
+ rs: https://tel.meet/tib-dwcj-ayb?pin=3436354133406&hs=7\n\nLearn more abou
+ t Meet at: https://support.google.com/a/users/answer/9282720\n\nPlease do n
+ ot edit this section.\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20260507T051332Z
+LOCATION:Strada Corbeni 34\, 030167 București\, Romania
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Dl Mugurel Marin - Chess Class
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:This is an event reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Bucharest:20260501T163000
+DTEND;TZID=Europe/Bucharest:20260501T180000
+DTSTAMP:20260508T133050Z
+ORGANIZER;CN=ACS THE SQUARE:mailto:contact@thesquarechessclub.com
+UID:6q71gnjqppbdg33q7dr3kgvjvb@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=le
+ vvaj81@gmail.com;X-NUM-GUESTS=0:mailto:levvaj81@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=ACS TH
+ E SQUARE;X-NUM-GUESTS=0:mailto:contact@thesquarechessclub.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/doo-ukvn-pui
+RECURRENCE-ID;TZID=Europe/Bucharest:20260501T163000
+CREATED:20260324T162106Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/do
+ o-ukvn-pui\nOr dial: (RO) +40 31 227 7465 PIN: 440916965#\nMore phone numbe
+ rs: https://tel.meet/doo-ukvn-pui?pin=5058967384871&hs=7\n\nLearn more abou
+ t Meet at: https://support.google.com/a/users/answer/9282720\n\nPlease do n
+ ot edit this section.\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20260506T100021Z
+LOCATION:Strada Corbeni 34\, 030167 București\, Romania
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:absent - Andrei - lectie de sah
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Bucharest:20260328T193000
+DTEND;TZID=Europe/Bucharest:20260328T210000
+RRULE:FREQ=WEEKLY;BYDAY=SA
+DTSTAMP:20260508T133050Z
+ORGANIZER;CN=ACS THE SQUARE:mailto:contact@thesquarechessclub.com
+UID:304h8l56hvnj7vqn2s3nfgu7sk@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=le
+ vvaj81@gmail.com;X-NUM-GUESTS=0:mailto:levvaj81@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=ACS TH
+ E SQUARE;X-NUM-GUESTS=0:mailto:contact@thesquarechessclub.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/fms-gmvn-rmo
+CREATED:20260324T162521Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/fm
+ s-gmvn-rmo\nOr dial: (RO) +40 31 227 7009 PIN: 272194015#\nMore phone numbe
+ rs: https://tel.meet/fms-gmvn-rmo?pin=7774316953637&hs=7\n\nLearn more abou
+ t Meet at: https://support.google.com/a/users/answer/9282720\n\nPlease do n
+ ot edit this section.\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20260506T115010Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Barbu Simion - lectie de sah
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:This is an event reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Bucharest:20260501T163000
+DTEND;TZID=Europe/Bucharest:20260501T180000
+RRULE:FREQ=WEEKLY;BYDAY=FR
+DTSTAMP:20260508T133050Z
+ORGANIZER;CN=ACS THE SQUARE:mailto:contact@thesquarechessclub.com
+UID:7o8qg5lu96vq1p6s9vqkj9d419@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=le
+ vvaj81@gmail.com;X-NUM-GUESTS=0:mailto:levvaj81@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=ACS TH
+ E SQUARE;X-NUM-GUESTS=0:mailto:contact@thesquarechessclub.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/pbc-dxds-fva
+CREATED:20260508T131547Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/pb
+ c-dxds-fva\nOr dial: (RO) +40 31 227 7325 PIN: 254473408#\nMore phone numbe
+ rs: https://tel.meet/pbc-dxds-fva?pin=3842613247151&hs=7\n\nLearn more abou
+ t Meet at: https://support.google.com/a/users/answer/9282720\n\nPlease do n
+ ot edit this section.\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20260508T131550Z
+LOCATION:Strada Corbeni 34\, 030167 București\, Romania
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:David 
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Bucharest:20260416T173000
+DTEND;TZID=Europe/Bucharest:20260416T190000
+DTSTAMP:20260508T133050Z
+ORGANIZER;CN=vladighita@gmail.com:mailto:vladighita@gmail.com
+UID:ugt3f5ru7a50tj669lu0v529dc@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=vladig
+ hita@gmail.com;X-NUM-GUESTS=0:mailto:vladighita@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=co
+ ntact@thesquarechessclub.com;X-NUM-GUESTS=0:mailto:contact@thesquarechesscl
+ ub.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/wvm-hfst-ptk
+RECURRENCE-ID;TZID=Europe/Bucharest:20260417T160000
+CREATED:20250925T183103Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/wv
+ m-hfst-ptk\n\nLearn more about Meet at: https://support.google.com/a/users/
+ answer/9282720\n\nPlease do not edit this section.\n-::~:~::~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20260501T090336Z
+SEQUENCE:3
+STATUS:CONFIRMED
+SUMMARY:Bogdan T.
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260509T070000Z
+DTEND:20260509T113000Z
+DTSTAMP:20260508T133050Z
+ORGANIZER;CN=ACS THE SQUARE:mailto:contact@thesquarechessclub.com
+UID:771ev7ckepgd5kg0nkf792c11f@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=ACS TH
+ E SQUARE;X-NUM-GUESTS=0:mailto:contact@thesquarechessclub.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=le
+ vvaj81@gmail.com;X-NUM-GUESTS=0:mailto:levvaj81@gmail.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/tpb-vjnr-bpx
+CREATED:20260408T154949Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/tp
+ b-vjnr-bpx\nOr dial: (RO) +40 31 227 7226 PIN: 994867165#\nMore phone numbe
+ rs: https://tel.meet/tpb-vjnr-bpx?pin=1278469745205&hs=7\n\nLearn more abou
+ t Meet at: https://support.google.com/a/users/answer/9282720\n\nPlease do n
+ ot edit this section.\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20260408T155030Z
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Concurs intern
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Bucharest:20250306T160000
+DTEND;TZID=Europe/Bucharest:20250306T173000
+DTSTAMP:20260508T133050Z
+ORGANIZER;CN=vladighita@gmail.com:mailto:vladighita@gmail.com
+UID:60rj4pb160smcb9pcorm2b9k6phm2bb164p3cbb4ccs66pj3ccp6ad3174@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=vladig
+ hita@gmail.com;X-NUM-GUESTS=0:mailto:vladighita@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=co
+ ntact@thesquarechessclub.com;X-NUM-GUESTS=0:mailto:contact@thesquarechesscl
+ ub.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/gjs-yrbr-foc
+RECURRENCE-ID;TZID=Europe/Bucharest:20250305T163000
+CREATED:20250116T143034Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/gj
+ s-yrbr-foc\n\nLearn more about Meet at: https://support.google.com/a/users/
+ answer/9282720\n\nPlease do not edit this section.\n-::~:~::~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20260409T182537Z
+SEQUENCE:3
+STATUS:CONFIRMED
+SUMMARY:Roman Musat @The Square
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260509
+DTEND;VALUE=DATE:20260510
+DTSTAMP:20260508T133050Z
+ORGANIZER;CN=ACS THE SQUARE:mailto:contact@thesquarechessclub.com
+UID:3259dbh4sbfaa71e7ffth8qoau@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=ACS TH
+ E SQUARE;X-NUM-GUESTS=0:mailto:contact@thesquarechessclub.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=st
+ anciucristiana6@gmail.com;X-NUM-GUESTS=0:mailto:stanciucristiana6@gmail.com
+CREATED:20260501T144140Z
+LAST-MODIFIED:20260501T144140Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Social chess la Melanj Cafe
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Bucharest:20260425T073000
+DTEND;TZID=Europe/Bucharest:20260425T210000
+DTSTAMP:20260508T133050Z
+ORGANIZER;CN=ACS THE SQUARE:mailto:contact@thesquarechessclub.com
+UID:77skqfb922cta723u6qstot4f1@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=le
+ vvaj81@gmail.com;X-NUM-GUESTS=0:mailto:levvaj81@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=ACS TH
+ E SQUARE;X-NUM-GUESTS=0:mailto:contact@thesquarechessclub.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/qek-gzrd-qpr
+RECURRENCE-ID;TZID=Europe/Bucharest:20260425T073000
+CREATED:20260324T162433Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/qe
+ k-gzrd-qpr\nOr dial: (RO) +40 31 227 6953 PIN: 654376971#\nMore phone numbe
+ rs: https://tel.meet/qek-gzrd-qpr?pin=5031918749055&hs=7\n\nLearn more abou
+ t Meet at: https://support.google.com/a/users/answer/9282720\n\nPlease do n
+ ot edit this section.\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20260503T012817Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:prezent - Razvan Tudoroiu
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:This is an event reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260507T153000Z
+DTEND:20260507T170000Z
+DTSTAMP:20260508T133050Z
+ORGANIZER;CN=vladighita@gmail.com:mailto:vladighita@gmail.com
+UID:6dgjad1k64sm4b9j68rjcb9k65ijabb16tijgb9h65i68pb66dgjid9mco@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=co
+ ntact@thesquarechessclub.com;X-NUM-GUESTS=0:mailto:contact@thesquarechesscl
+ ub.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=vladig
+ hita@gmail.com;X-NUM-GUESTS=0:mailto:vladighita@gmail.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/pgj-iccs-bmv
+CREATED:20260430T143700Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/pg
+ j-iccs-bmv\n\nLearn more about Meet at: https://support.google.com/a/users/
+ answer/9282720\n\nPlease do not edit this section.\n-::~:~::~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20260430T143709Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Ionut Trandafir
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Bucharest:20260423T160000
+DTEND;TZID=Europe/Bucharest:20260423T173000
+DTSTAMP:20260508T133050Z
+ORGANIZER;CN=vladighita@gmail.com:mailto:vladighita@gmail.com
+UID:ugt3f5ru7a50tj669lu0v529dc@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=vladig
+ hita@gmail.com;X-NUM-GUESTS=0:mailto:vladighita@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=co
+ ntact@thesquarechessclub.com;X-NUM-GUESTS=0:mailto:contact@thesquarechesscl
+ ub.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/wvm-hfst-ptk
+RECURRENCE-ID;TZID=Europe/Bucharest:20260424T160000
+CREATED:20250925T183103Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/wv
+ m-hfst-ptk\n\nLearn more about Meet at: https://support.google.com/a/users/
+ answer/9282720\n\nPlease do not edit this section.\n-::~:~::~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20260501T090336Z
+SEQUENCE:3
+STATUS:CONFIRMED
+SUMMARY:Bogdan T.
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Bucharest:20260326T200000
+DTEND;TZID=Europe/Bucharest:20260326T212000
+RRULE:FREQ=WEEKLY;BYDAY=TH
+DTSTAMP:20260508T133050Z
+ORGANIZER;CN=ACS THE SQUARE:mailto:contact@thesquarechessclub.com
+UID:136r6efe5tvji2p52sof20q80f@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=ra
+ zvancatalintudoroiu@gmail.com;X-NUM-GUESTS=0:mailto:razvancatalintudoroiu@g
+ mail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=ACS TH
+ E SQUARE;X-NUM-GUESTS=0:mailto:contact@thesquarechessclub.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/pov-nizz-udt
+CREATED:20260324T152500Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/po
+ v-nizz-udt\nOr dial: (RO) +40 31 227 6865 PIN: 732594781#\nMore phone numbe
+ rs: https://tel.meet/pov-nizz-udt?pin=5491487303333&hs=7\n\nLearn more abou
+ t Meet at: https://support.google.com/a/users/answer/9282720\n\nPlease do n
+ ot edit this section.\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20260507T000309Z
+LOCATION:Strada Corbeni 34\, 030167 București\, Romania
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Valentin - Chess Class
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:This is an event reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260524
+DTEND;VALUE=DATE:20260525
+DTSTAMP:20260508T133050Z
+ORGANIZER;CN=ACS THE SQUARE:mailto:contact@thesquarechessclub.com
+UID:48ob4unhpl6ohba4favjjlnuht@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=ACS TH
+ E SQUARE;X-NUM-GUESTS=0:mailto:contact@thesquarechessclub.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=st
+ anciucristiana6@gmail.com;X-NUM-GUESTS=0:mailto:stanciucristiana6@gmail.com
+CREATED:20260501T144632Z
+LAST-MODIFIED:20260501T144741Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Social chess la Biblioteca
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Bucharest:20260418T193000
+DTEND;TZID=Europe/Bucharest:20260418T210000
+DTSTAMP:20260508T133050Z
+ORGANIZER;CN=ACS THE SQUARE:mailto:contact@thesquarechessclub.com
+UID:304h8l56hvnj7vqn2s3nfgu7sk@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=le
+ vvaj81@gmail.com;X-NUM-GUESTS=0:mailto:levvaj81@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=ACS TH
+ E SQUARE;X-NUM-GUESTS=0:mailto:contact@thesquarechessclub.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/fms-gmvn-rmo
+RECURRENCE-ID;TZID=Europe/Bucharest:20260418T193000
+CREATED:20260324T162521Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/fm
+ s-gmvn-rmo\nOr dial: (RO) +40 31 227 7009 PIN: 272194015#\nMore phone numbe
+ rs: https://tel.meet/fms-gmvn-rmo?pin=7774316953637&hs=7\n\nLearn more abou
+ t Meet at: https://support.google.com/a/users/answer/9282720\n\nPlease do n
+ ot edit this section.\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20260506T115010Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:prezent - Barbu Simion - lectie de sah
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:This is an event reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Bucharest:20260501T163000
+DTEND;TZID=Europe/Bucharest:20260501T180000
+DTSTAMP:20260508T133050Z
+ORGANIZER;CN=ACS THE SQUARE:mailto:contact@thesquarechessclub.com
+UID:0ucdbjj21tm4ibmg1qcdga81kn@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=le
+ vvaj81@gmail.com;X-NUM-GUESTS=0:mailto:levvaj81@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=ACS TH
+ E SQUARE;X-NUM-GUESTS=0:mailto:contact@thesquarechessclub.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/rea-nemu-jaq
+RECURRENCE-ID;TZID=Europe/Bucharest:20260501T163000
+CREATED:20260327T072442Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/re
+ a-nemu-jaq\nOr dial: (RO) +40 31 227 6766 PIN: 733835416#\nMore phone numbe
+ rs: https://tel.meet/rea-nemu-jaq?pin=2514822635750&hs=7\n\nLearn more abou
+ t Meet at: https://support.google.com/a/users/answer/9282720\n\nPlease do n
+ ot edit this section.\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20260507T102529Z
+LOCATION:Strada Corbeni 34\, 030167 București\, Romania
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:absent - Iustin
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:This is an event reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260620
+DTEND;VALUE=DATE:20260621
+DTSTAMP:20260508T133050Z
+ORGANIZER;CN=ACS THE SQUARE:mailto:contact@thesquarechessclub.com
+UID:2pml9cm041m42rtu6h5v63ssdv@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=ACS TH
+ E SQUARE;X-NUM-GUESTS=0:mailto:contact@thesquarechessclub.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=st
+ anciucristiana6@gmail.com;X-NUM-GUESTS=0:mailto:stanciucristiana6@gmail.com
+CREATED:20260501T145120Z
+LAST-MODIFIED:20260501T145120Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Event Carturesti
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Bucharest:20260424T163000
+DTEND;TZID=Europe/Bucharest:20260424T180000
+DTSTAMP:20260508T133050Z
+ORGANIZER;CN=ACS THE SQUARE:mailto:contact@thesquarechessclub.com
+UID:6q71gnjqppbdg33q7dr3kgvjvb@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=le
+ vvaj81@gmail.com;X-NUM-GUESTS=0:mailto:levvaj81@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=ACS TH
+ E SQUARE;X-NUM-GUESTS=0:mailto:contact@thesquarechessclub.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/doo-ukvn-pui
+RECURRENCE-ID;TZID=Europe/Bucharest:20260424T163000
+CREATED:20260324T162106Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/do
+ o-ukvn-pui\nOr dial: (RO) +40 31 227 7465 PIN: 440916965#\nMore phone numbe
+ rs: https://tel.meet/doo-ukvn-pui?pin=5058967384871&hs=7\n\nLearn more abou
+ t Meet at: https://support.google.com/a/users/answer/9282720\n\nPlease do n
+ ot edit this section.\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20260506T100021Z
+LOCATION:Strada Corbeni 34\, 030167 București\, Romania
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:absent - Andrei - lectie de sah
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Bucharest:20260328T193000
+DTEND;TZID=Europe/Bucharest:20260328T210000
+RRULE:FREQ=WEEKLY;BYDAY=SA
+DTSTAMP:20260508T133050Z
+ORGANIZER;CN=ACS THE SQUARE:mailto:contact@thesquarechessclub.com
+UID:3ugbg3a1nr8gfsgcn8fmhiq1k3@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=le
+ vvaj81@gmail.com;X-NUM-GUESTS=0:mailto:levvaj81@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=ACS TH
+ E SQUARE;X-NUM-GUESTS=0:mailto:contact@thesquarechessclub.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/dsk-ybsa-rcu
+CREATED:20260324T162610Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/ds
+ k-ybsa-rcu\nOr dial: (RO) +40 31 227 7208 PIN: 408535640#\nMore phone numbe
+ rs: https://tel.meet/dsk-ybsa-rcu?pin=6050381873546&hs=7\n\nLearn more abou
+ t Meet at: https://support.google.com/a/users/answer/9282720\n\nPlease do n
+ ot edit this section.\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20260501T180633Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Andrei Stan
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:This is an event reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR

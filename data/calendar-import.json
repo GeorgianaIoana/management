@@ -1,0 +1,650 @@
+{
+  "students": [
+    {
+      "name": "Ana",
+      "firstName": "Ana",
+      "lastName": "",
+      "memberType": "child",
+      "totalSessions": 5,
+      "present": 2,
+      "absent": 2,
+      "dayDistribution": {
+        "5": 5
+      }
+    },
+    {
+      "name": "Andrei",
+      "firstName": "Andrei",
+      "lastName": "",
+      "memberType": "child",
+      "totalSessions": 7,
+      "present": 2,
+      "absent": 3,
+      "dayDistribution": {
+        "4": 1,
+        "5": 6
+      }
+    },
+    {
+      "name": "Andrei Stan",
+      "firstName": "Andrei",
+      "lastName": "Stan",
+      "memberType": "adult",
+      "totalSessions": 4,
+      "present": 1,
+      "absent": 2,
+      "dayDistribution": {
+        "6": 4
+      }
+    },
+    {
+      "name": "Barbu Simion",
+      "firstName": "Barbu",
+      "lastName": "Simion",
+      "memberType": "adult",
+      "totalSessions": 5,
+      "present": 4,
+      "absent": 0,
+      "dayDistribution": {
+        "6": 5
+      }
+    },
+    {
+      "name": "Bogdan T.",
+      "firstName": "Bogdan",
+      "lastName": "T.",
+      "memberType": "adult",
+      "totalSessions": 3,
+      "present": 0,
+      "absent": 0,
+      "dayDistribution": {
+        "4": 2,
+        "5": 1
+      }
+    },
+    {
+      "name": "Ciprian",
+      "firstName": "Ciprian",
+      "lastName": "",
+      "memberType": "adult",
+      "totalSessions": 1,
+      "present": 0,
+      "absent": 0,
+      "dayDistribution": {
+        "4": 1
+      }
+    },
+    {
+      "name": "David",
+      "firstName": "David",
+      "lastName": "",
+      "memberType": "child",
+      "totalSessions": 1,
+      "present": 0,
+      "absent": 0,
+      "dayDistribution": {
+        "5": 1
+      }
+    },
+    {
+      "name": "Dl Mugurel Marin",
+      "firstName": "Mugurel",
+      "lastName": "Marin",
+      "memberType": "adult",
+      "totalSessions": 1,
+      "present": 0,
+      "absent": 0,
+      "dayDistribution": {
+        "4": 1
+      }
+    },
+    {
+      "name": "Ileanaes",
+      "firstName": "Ileana",
+      "lastName": "",
+      "memberType": "adult",
+      "totalSessions": 1,
+      "present": 0,
+      "absent": 0,
+      "dayDistribution": {
+        "4": 1
+      }
+    },
+    {
+      "name": "Ionut Trandafir",
+      "firstName": "Ionut",
+      "lastName": "Trandafir",
+      "memberType": "adult",
+      "totalSessions": 1,
+      "present": 0,
+      "absent": 0,
+      "dayDistribution": {
+        "4": 1
+      }
+    },
+    {
+      "name": "Iustin",
+      "firstName": "Iustin",
+      "lastName": "",
+      "memberType": "child",
+      "totalSessions": 6,
+      "present": 3,
+      "absent": 2,
+      "dayDistribution": {
+        "5": 6
+      }
+    },
+    {
+      "name": "Marcu",
+      "firstName": "Marcu",
+      "lastName": "",
+      "memberType": "child",
+      "totalSessions": 6,
+      "present": 5,
+      "absent": 0,
+      "dayDistribution": {
+        "5": 6
+      }
+    },
+    {
+      "name": "Ovidiu",
+      "firstName": "Ovidiu",
+      "lastName": "",
+      "memberType": "adult",
+      "totalSessions": 5,
+      "present": 0,
+      "absent": 0,
+      "dayDistribution": {
+        "1": 2,
+        "2": 1,
+        "4": 1,
+        "5": 1
+      }
+    },
+    {
+      "name": "Raluca",
+      "firstName": "Raluca",
+      "lastName": "",
+      "memberType": "adult",
+      "totalSessions": 1,
+      "present": 0,
+      "absent": 0,
+      "dayDistribution": {
+        "4": 1
+      }
+    },
+    {
+      "name": "Razvan Tudoroiu",
+      "firstName": "Razvan",
+      "lastName": "Tudoroiu",
+      "memberType": "adult",
+      "totalSessions": 5,
+      "present": 4,
+      "absent": 0,
+      "dayDistribution": {
+        "6": 5
+      }
+    },
+    {
+      "name": "Roman",
+      "firstName": "Roman",
+      "lastName": "",
+      "memberType": "adult",
+      "totalSessions": 1,
+      "present": 0,
+      "absent": 0,
+      "dayDistribution": {
+        "3": 1
+      }
+    },
+    {
+      "name": "Sasha",
+      "firstName": "Sasha",
+      "lastName": "",
+      "memberType": "adult",
+      "totalSessions": 1,
+      "present": 0,
+      "absent": 0,
+      "dayDistribution": {
+        "4": 1
+      }
+    },
+    {
+      "name": "Silviu",
+      "firstName": "Silviu",
+      "lastName": "",
+      "memberType": "adult",
+      "totalSessions": 1,
+      "present": 0,
+      "absent": 0,
+      "dayDistribution": {
+        "4": 1
+      }
+    },
+    {
+      "name": "Simona",
+      "firstName": "Simona",
+      "lastName": "",
+      "memberType": "adult",
+      "totalSessions": 1,
+      "present": 0,
+      "absent": 0,
+      "dayDistribution": {
+        "4": 1
+      }
+    },
+    {
+      "name": "Valentin",
+      "firstName": "Valentin",
+      "lastName": "",
+      "memberType": "adult",
+      "totalSessions": 1,
+      "present": 0,
+      "absent": 0,
+      "dayDistribution": {
+        "4": 1
+      }
+    }
+  ],
+  "events": [
+    {
+      "date": "2026-05-08",
+      "dayOfWeek": 5,
+      "rawSummary": "Ovidiu",
+      "name": "Ovidiu",
+      "attended": null
+    },
+    {
+      "date": "2026-05-07",
+      "dayOfWeek": 4,
+      "rawSummary": "Ionut Trandafir",
+      "name": "Ionut Trandafir",
+      "attended": null
+    },
+    {
+      "date": "2026-05-04",
+      "dayOfWeek": 1,
+      "rawSummary": "Ovidiu",
+      "name": "Ovidiu",
+      "attended": null
+    },
+    {
+      "date": "2026-05-02",
+      "dayOfWeek": 6,
+      "rawSummary": "prezent - Razvan Tudoroiu",
+      "name": "Razvan Tudoroiu",
+      "attended": true
+    },
+    {
+      "date": "2026-05-02",
+      "dayOfWeek": 6,
+      "rawSummary": "prezent - Barbu Simion - lectie de sah",
+      "name": "Barbu Simion",
+      "attended": true
+    },
+    {
+      "date": "2026-05-01",
+      "dayOfWeek": 5,
+      "rawSummary": "prezent - Marcu - lectie de sah",
+      "name": "Marcu",
+      "attended": true
+    },
+    {
+      "date": "2026-05-01",
+      "dayOfWeek": 5,
+      "rawSummary": "absent - Andrei - lectie de sah",
+      "name": "Andrei",
+      "attended": false
+    },
+    {
+      "date": "2026-05-01",
+      "dayOfWeek": 5,
+      "rawSummary": "David ",
+      "name": "David",
+      "attended": null
+    },
+    {
+      "date": "2026-05-01",
+      "dayOfWeek": 5,
+      "rawSummary": "absent - Iustin",
+      "name": "Iustin",
+      "attended": false
+    },
+    {
+      "date": "2026-04-27",
+      "dayOfWeek": 1,
+      "rawSummary": "Ovidiu",
+      "name": "Ovidiu",
+      "attended": null
+    },
+    {
+      "date": "2026-04-25",
+      "dayOfWeek": 6,
+      "rawSummary": "absent - Andrei Stan",
+      "name": "Andrei Stan",
+      "attended": false
+    },
+    {
+      "date": "2026-04-25",
+      "dayOfWeek": 6,
+      "rawSummary": "prezent - Barbu Simion - lectie de sah",
+      "name": "Barbu Simion",
+      "attended": true
+    },
+    {
+      "date": "2026-04-25",
+      "dayOfWeek": 6,
+      "rawSummary": "prezent - Razvan Tudoroiu",
+      "name": "Razvan Tudoroiu",
+      "attended": true
+    },
+    {
+      "date": "2026-04-24",
+      "dayOfWeek": 5,
+      "rawSummary": "prezent - Marcu - lectie de sah",
+      "name": "Marcu",
+      "attended": true
+    },
+    {
+      "date": "2026-04-24",
+      "dayOfWeek": 5,
+      "rawSummary": "prezent - Ana - lectie de sah",
+      "name": "Ana",
+      "attended": true
+    },
+    {
+      "date": "2026-04-24",
+      "dayOfWeek": 5,
+      "rawSummary": "prezent - Iustin",
+      "name": "Iustin",
+      "attended": true
+    },
+    {
+      "date": "2026-04-24",
+      "dayOfWeek": 5,
+      "rawSummary": "absent - Andrei - lectie de sah",
+      "name": "Andrei",
+      "attended": false
+    },
+    {
+      "date": "2026-04-23",
+      "dayOfWeek": 4,
+      "rawSummary": "Bogdan T.",
+      "name": "Bogdan T.",
+      "attended": null
+    },
+    {
+      "date": "2026-04-18",
+      "dayOfWeek": 6,
+      "rawSummary": "prezent - Razvan Tudoroiu",
+      "name": "Razvan Tudoroiu",
+      "attended": true
+    },
+    {
+      "date": "2026-04-18",
+      "dayOfWeek": 6,
+      "rawSummary": "absent - Andrei Stan",
+      "name": "Andrei Stan",
+      "attended": false
+    },
+    {
+      "date": "2026-04-18",
+      "dayOfWeek": 6,
+      "rawSummary": "prezent - Barbu Simion - lectie de sah",
+      "name": "Barbu Simion",
+      "attended": true
+    },
+    {
+      "date": "2026-04-17",
+      "dayOfWeek": 5,
+      "rawSummary": "prezent - Andrei - lectie de sah",
+      "name": "Andrei",
+      "attended": true
+    },
+    {
+      "date": "2026-04-17",
+      "dayOfWeek": 5,
+      "rawSummary": "prezent - Ana - lectie de sah",
+      "name": "Ana",
+      "attended": true
+    },
+    {
+      "date": "2026-04-17",
+      "dayOfWeek": 5,
+      "rawSummary": "prezent - Marcu - lectie de sah",
+      "name": "Marcu",
+      "attended": true
+    },
+    {
+      "date": "2026-04-17",
+      "dayOfWeek": 5,
+      "rawSummary": "prezent - Iustin",
+      "name": "Iustin",
+      "attended": true
+    },
+    {
+      "date": "2026-04-16",
+      "dayOfWeek": 4,
+      "rawSummary": "Bogdan T.",
+      "name": "Bogdan T.",
+      "attended": null
+    },
+    {
+      "date": "2026-04-10",
+      "dayOfWeek": 5,
+      "rawSummary": "absent - Iustin",
+      "name": "Iustin",
+      "attended": false
+    },
+    {
+      "date": "2026-04-10",
+      "dayOfWeek": 5,
+      "rawSummary": "absent - Ana - lectie de sah",
+      "name": "Ana",
+      "attended": false
+    },
+    {
+      "date": "2026-04-10",
+      "dayOfWeek": 5,
+      "rawSummary": "absent - Andrei - lectie de sah",
+      "name": "Andrei",
+      "attended": false
+    },
+    {
+      "date": "2026-04-10",
+      "dayOfWeek": 5,
+      "rawSummary": "prezent - Marcu - lectie de sah",
+      "name": "Marcu",
+      "attended": true
+    },
+    {
+      "date": "2026-04-09",
+      "dayOfWeek": 4,
+      "rawSummary": "Ovidiu",
+      "name": "Ovidiu",
+      "attended": null
+    },
+    {
+      "date": "2026-04-07",
+      "dayOfWeek": 2,
+      "rawSummary": "Ovidiu",
+      "name": "Ovidiu",
+      "attended": null
+    },
+    {
+      "date": "2026-04-04",
+      "dayOfWeek": 6,
+      "rawSummary": "Prezent - Andrei Stan",
+      "name": "Andrei Stan",
+      "attended": true
+    },
+    {
+      "date": "2026-04-04",
+      "dayOfWeek": 6,
+      "rawSummary": "Prezent - Razvan Tudoroiu",
+      "name": "Razvan Tudoroiu",
+      "attended": true
+    },
+    {
+      "date": "2026-04-04",
+      "dayOfWeek": 6,
+      "rawSummary": "Prezent - Barbu Simion - lectie de sah",
+      "name": "Barbu Simion",
+      "attended": true
+    },
+    {
+      "date": "2026-04-03",
+      "dayOfWeek": 5,
+      "rawSummary": "Marcu - lectie de sah\\, prezent",
+      "name": "Marcu",
+      "attended": true
+    },
+    {
+      "date": "2026-04-03",
+      "dayOfWeek": 5,
+      "rawSummary": "Ana - lectie de sah\\, absent",
+      "name": "Ana",
+      "attended": false
+    },
+    {
+      "date": "2026-04-03",
+      "dayOfWeek": 5,
+      "rawSummary": "Iustin\\, prezent",
+      "name": "Iustin",
+      "attended": true
+    },
+    {
+      "date": "2026-04-03",
+      "dayOfWeek": 5,
+      "rawSummary": "Bogdan T.",
+      "name": "Bogdan T.",
+      "attended": null
+    },
+    {
+      "date": "2026-04-03",
+      "dayOfWeek": 5,
+      "rawSummary": "Andrei - lectie de sah\\, prezent",
+      "name": "Andrei",
+      "attended": true
+    },
+    {
+      "date": "2026-04-02",
+      "dayOfWeek": 4,
+      "rawSummary": "Ciprian - Chess Time",
+      "name": "Ciprian",
+      "attended": null
+    },
+    {
+      "date": "2026-03-28",
+      "dayOfWeek": 6,
+      "rawSummary": "Razvan Tudoroiu",
+      "name": "Razvan Tudoroiu",
+      "attended": null
+    },
+    {
+      "date": "2026-03-28",
+      "dayOfWeek": 6,
+      "rawSummary": "Barbu Simion - lectie de sah",
+      "name": "Barbu Simion",
+      "attended": null
+    },
+    {
+      "date": "2026-03-28",
+      "dayOfWeek": 6,
+      "rawSummary": "Andrei Stan",
+      "name": "Andrei Stan",
+      "attended": null
+    },
+    {
+      "date": "2026-03-27",
+      "dayOfWeek": 5,
+      "rawSummary": "Ana - lectie de sah",
+      "name": "Ana",
+      "attended": null
+    },
+    {
+      "date": "2026-03-27",
+      "dayOfWeek": 5,
+      "rawSummary": "Andrei - lectie de sah",
+      "name": "Andrei",
+      "attended": null
+    },
+    {
+      "date": "2026-03-27",
+      "dayOfWeek": 5,
+      "rawSummary": "Iustin",
+      "name": "Iustin",
+      "attended": null
+    },
+    {
+      "date": "2026-03-27",
+      "dayOfWeek": 5,
+      "rawSummary": "Marcu - lectie de sah",
+      "name": "Marcu",
+      "attended": null
+    },
+    {
+      "date": "2026-03-26",
+      "dayOfWeek": 4,
+      "rawSummary": "Simona - Chess Class",
+      "name": "Simona",
+      "attended": null
+    },
+    {
+      "date": "2026-03-26",
+      "dayOfWeek": 4,
+      "rawSummary": "Silviu - Chess Time",
+      "name": "Silviu",
+      "attended": null
+    },
+    {
+      "date": "2026-03-26",
+      "dayOfWeek": 4,
+      "rawSummary": "Sasha - Chess Time",
+      "name": "Sasha",
+      "attended": null
+    },
+    {
+      "date": "2026-03-26",
+      "dayOfWeek": 4,
+      "rawSummary": "Andrei - Chess Class",
+      "name": "Andrei",
+      "attended": null
+    },
+    {
+      "date": "2026-03-26",
+      "dayOfWeek": 4,
+      "rawSummary": "Ileana - Chess Classes",
+      "name": "Ileanaes",
+      "attended": null
+    },
+    {
+      "date": "2026-03-26",
+      "dayOfWeek": 4,
+      "rawSummary": "Raluca - Chess Class",
+      "name": "Raluca",
+      "attended": null
+    },
+    {
+      "date": "2026-03-26",
+      "dayOfWeek": 4,
+      "rawSummary": "Dl Mugurel Marin - Chess Class",
+      "name": "Dl Mugurel Marin",
+      "attended": null
+    },
+    {
+      "date": "2026-03-26",
+      "dayOfWeek": 4,
+      "rawSummary": "Valentin - Chess Class",
+      "name": "Valentin",
+      "attended": null
+    },
+    {
+      "date": "2026-02-11",
+      "dayOfWeek": 3,
+      "rawSummary": "Roman",
+      "name": "Roman",
+      "attended": null
+    }
+  ]
+}
