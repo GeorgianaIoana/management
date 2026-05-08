@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
+import Link from 'next/link';
 import { createClient } from '@/lib/supabase/client';
 import { getUserRole, getRedirectPath } from '@/services/auth';
 import { useAuthStore } from '@/stores/auth-store';
@@ -99,7 +100,15 @@ export default function LoginPage() {
               />
             </div>
             <div className="space-y-2">
-              <Label htmlFor="password">Password</Label>
+              <div className="flex items-center justify-between">
+                <Label htmlFor="password">Password</Label>
+                <Link
+                  href="/forgot-password"
+                  className="text-sm text-muted-foreground hover:text-primary hover:underline"
+                >
+                  Ai uitat parola?
+                </Link>
+              </div>
               <Input
                 id="password"
                 type="password"
