@@ -26,18 +26,18 @@ export default function ForgotPasswordPage() {
       });
 
       if (error) {
-        toast.error('Eroare', {
+        toast.error('Error', {
           description: error.message,
         });
         return;
       }
 
       setIsEmailSent(true);
-      toast.success('Email trimis!', {
-        description: 'Verifică inbox-ul pentru link-ul de resetare.',
+      toast.success('Email sent!', {
+        description: 'Check your inbox for the reset link.',
       });
     } catch {
-      toast.error('A apărut o eroare neașteptată');
+      toast.error('An unexpected error occurred');
     } finally {
       setIsLoading(false);
     }
@@ -51,18 +51,18 @@ export default function ForgotPasswordPage() {
             <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-green-100 text-green-600">
               <CheckCircle className="h-10 w-10" />
             </div>
-            <CardTitle className="text-2xl">Verifică Email-ul</CardTitle>
+            <CardTitle className="text-2xl">Check Your Email</CardTitle>
             <CardDescription>
-              Am trimis un link de resetare a parolei la <strong>{email}</strong>
+              We sent a password reset link to <strong>{email}</strong>
             </CardDescription>
           </CardHeader>
           <CardContent className="space-y-4">
             <div className="rounded-lg bg-muted p-4 text-sm text-muted-foreground">
-              <p className="mb-2">Nu ai primit email-ul?</p>
+              <p className="mb-2">Didn&apos;t receive the email?</p>
               <ul className="list-disc list-inside space-y-1">
-                <li>Verifică folder-ul de spam</li>
-                <li>Așteaptă câteva minute</li>
-                <li>Verifică dacă adresa de email este corectă</li>
+                <li>Check your spam folder</li>
+                <li>Wait a few minutes</li>
+                <li>Make sure your email address is correct</li>
               </ul>
             </div>
             <div className="flex flex-col gap-2">
@@ -72,12 +72,12 @@ export default function ForgotPasswordPage() {
                 className="w-full"
               >
                 <Mail className="mr-2 h-4 w-4" />
-                Trimite din nou
+                Send Again
               </Button>
               <Button variant="ghost" asChild className="w-full">
                 <Link href="/login">
                   <ArrowLeft className="mr-2 h-4 w-4" />
-                  Înapoi la login
+                  Back to Login
                 </Link>
               </Button>
             </div>
@@ -94,9 +94,9 @@ export default function ForgotPasswordPage() {
           <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-xl bg-primary text-primary-foreground">
             <Crown className="h-10 w-10" />
           </div>
-          <CardTitle className="text-2xl">Resetare Parolă</CardTitle>
+          <CardTitle className="text-2xl">Reset Password</CardTitle>
           <CardDescription>
-            Introdu adresa de email și îți vom trimite un link pentru a-ți reseta parola
+            Enter your email address and we&apos;ll send you a link to reset your password
           </CardDescription>
         </CardHeader>
         <CardContent>
@@ -106,7 +106,7 @@ export default function ForgotPasswordPage() {
               <Input
                 id="email"
                 type="email"
-                placeholder="email@thesquare.ro"
+                placeholder="email@thesquare.club"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 required
@@ -116,12 +116,12 @@ export default function ForgotPasswordPage() {
             </div>
             <Button type="submit" className="w-full" disabled={isLoading}>
               {isLoading && <Loader2 className="mr-2 h-4 w-4 animate-spin" />}
-              Trimite Link de Resetare
+              Send Reset Link
             </Button>
             <Button variant="ghost" asChild className="w-full">
               <Link href="/login">
                 <ArrowLeft className="mr-2 h-4 w-4" />
-                Înapoi la login
+                Back to Login
               </Link>
             </Button>
           </form>

@@ -47,14 +47,14 @@ export default function ResetPasswordPage() {
     e.preventDefault();
 
     if (!passwordValidation.valid) {
-      toast.error('Parola nu îndeplinește cerințele', {
+      toast.error('Password does not meet requirements', {
         description: passwordValidation.errors.join(', '),
       });
       return;
     }
 
     if (!passwordsMatch) {
-      toast.error('Parolele nu coincid');
+      toast.error('Passwords do not match');
       return;
     }
 
@@ -66,21 +66,21 @@ export default function ResetPasswordPage() {
       });
 
       if (error) {
-        toast.error('Eroare la resetarea parolei', {
+        toast.error('Error resetting password', {
           description: error.message,
         });
         return;
       }
 
       setIsSuccess(true);
-      toast.success('Parola a fost schimbată cu succes!');
+      toast.success('Password changed successfully!');
 
       // Redirect to login after 3 seconds
       setTimeout(() => {
         router.push('/login');
       }, 3000);
     } catch {
-      toast.error('A apărut o eroare neașteptată');
+      toast.error('An unexpected error occurred');
     } finally {
       setIsLoading(false);
     }
@@ -104,14 +104,14 @@ export default function ResetPasswordPage() {
             <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-red-100 text-red-600">
               <XCircle className="h-10 w-10" />
             </div>
-            <CardTitle className="text-2xl">Link Invalid sau Expirat</CardTitle>
+            <CardTitle className="text-2xl">Invalid or Expired Link</CardTitle>
             <CardDescription>
-              Link-ul de resetare a parolei nu mai este valid. Te rugăm să soliciți un nou link.
+              The password reset link is no longer valid. Please request a new one.
             </CardDescription>
           </CardHeader>
           <CardContent>
             <Button asChild className="w-full">
-              <Link href="/forgot-password">Solicită Link Nou</Link>
+              <Link href="/forgot-password">Request New Link</Link>
             </Button>
           </CardContent>
         </Card>
@@ -128,14 +128,14 @@ export default function ResetPasswordPage() {
             <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-green-100 text-green-600">
               <CheckCircle className="h-10 w-10" />
             </div>
-            <CardTitle className="text-2xl">Parolă Schimbată!</CardTitle>
+            <CardTitle className="text-2xl">Password Changed!</CardTitle>
             <CardDescription>
-              Parola ta a fost actualizată cu succes. Vei fi redirecționat către pagina de login.
+              Your password has been updated successfully. You will be redirected to the login page.
             </CardDescription>
           </CardHeader>
           <CardContent>
             <Button asChild className="w-full">
-              <Link href="/login">Mergi la Login</Link>
+              <Link href="/login">Go to Login</Link>
             </Button>
           </CardContent>
         </Card>
@@ -150,15 +150,15 @@ export default function ResetPasswordPage() {
           <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-xl bg-primary text-primary-foreground">
             <Crown className="h-10 w-10" />
           </div>
-          <CardTitle className="text-2xl">Parolă Nouă</CardTitle>
+          <CardTitle className="text-2xl">New Password</CardTitle>
           <CardDescription>
-            Introdu noua ta parolă
+            Enter your new password
           </CardDescription>
         </CardHeader>
         <CardContent>
           <form onSubmit={handleSubmit} className="space-y-4">
             <div className="space-y-2">
-              <Label htmlFor="password">Parolă Nouă</Label>
+              <Label htmlFor="password">New Password</Label>
               <div className="relative">
                 <Input
                   id="password"
@@ -182,26 +182,26 @@ export default function ResetPasswordPage() {
               {password.length > 0 && (
                 <div className="mt-2 space-y-1 text-xs">
                   <p className={password.length >= 12 ? 'text-green-600' : 'text-muted-foreground'}>
-                    {password.length >= 12 ? '✓' : '○'} Minim 12 caractere
+                    {password.length >= 12 ? '✓' : '○'} At least 12 characters
                   </p>
                   <p className={/[A-Z]/.test(password) ? 'text-green-600' : 'text-muted-foreground'}>
-                    {/[A-Z]/.test(password) ? '✓' : '○'} O literă mare (A-Z)
+                    {/[A-Z]/.test(password) ? '✓' : '○'} One uppercase letter (A-Z)
                   </p>
                   <p className={/[a-z]/.test(password) ? 'text-green-600' : 'text-muted-foreground'}>
-                    {/[a-z]/.test(password) ? '✓' : '○'} O literă mică (a-z)
+                    {/[a-z]/.test(password) ? '✓' : '○'} One lowercase letter (a-z)
                   </p>
                   <p className={/[0-9]/.test(password) ? 'text-green-600' : 'text-muted-foreground'}>
-                    {/[0-9]/.test(password) ? '✓' : '○'} O cifră (0-9)
+                    {/[0-9]/.test(password) ? '✓' : '○'} One number (0-9)
                   </p>
                   <p className={/[^A-Za-z0-9]/.test(password) ? 'text-green-600' : 'text-muted-foreground'}>
-                    {/[^A-Za-z0-9]/.test(password) ? '✓' : '○'} Un caracter special (!@#$%^&*)
+                    {/[^A-Za-z0-9]/.test(password) ? '✓' : '○'} One special character (!@#$%^&*)
                   </p>
                 </div>
               )}
             </div>
 
             <div className="space-y-2">
-              <Label htmlFor="confirmPassword">Confirmă Parola</Label>
+              <Label htmlFor="confirmPassword">Confirm Password</Label>
               <Input
                 id="confirmPassword"
                 type={showPassword ? 'text' : 'password'}
@@ -211,7 +211,7 @@ export default function ResetPasswordPage() {
                 disabled={isLoading}
               />
               {confirmPassword.length > 0 && !passwordsMatch && (
-                <p className="text-xs text-red-500">Parolele nu coincid</p>
+                <p className="text-xs text-red-500">Passwords do not match</p>
               )}
             </div>
 
@@ -221,7 +221,7 @@ export default function ResetPasswordPage() {
               disabled={isLoading || !passwordValidation.valid || !passwordsMatch}
             >
               {isLoading && <Loader2 className="mr-2 h-4 w-4 animate-spin" />}
-              Schimbă Parola
+              Change Password
             </Button>
           </form>
         </CardContent>
