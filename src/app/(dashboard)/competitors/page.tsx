@@ -18,6 +18,8 @@ import {
   GraduationCap,
   Award,
   Calendar,
+  DollarSign,
+  Banknote,
 } from 'lucide-react';
 import { competitors, type Competitor } from '@/data/competitors';
 
@@ -200,6 +202,163 @@ function CompetitorCard({ competitor }: { competitor: Competitor }) {
           </CardContent>
         </Card>
       </div>
+
+      {/* Financials */}
+      {competitor.financials && (
+        <Card>
+          <CardHeader>
+            <CardTitle className="flex items-center gap-2 text-base">
+              <Banknote className="h-5 w-5 text-primary" />
+              Estimare Încasări 2025-2026
+            </CardTitle>
+            <CardDescription>
+              {competitor.financials.data_source} • Confidence: {competitor.financials.confidence}
+            </CardDescription>
+          </CardHeader>
+          <CardContent>
+            <div className="space-y-6">
+              {/* Pricing */}
+              {competitor.financials.pricing && (
+                <div>
+                  <h4 className="font-semibold mb-2">Prețuri</h4>
+                  {competitor.financials.pricing.monthly_plans ? (
+                    <div className="overflow-x-auto">
+                      <table className="w-full text-sm">
+                        <thead>
+                          <tr className="border-b">
+                            <th className="pb-2 text-left">Abonament</th>
+                            <th className="pb-2 text-right">La sediu</th>
+                            <th className="pb-2 text-right">Online</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          {competitor.financials.pricing.monthly_plans.map((plan, i) => (
+                            <tr key={i} className="border-b last:border-0">
+                              <td className="py-2">{plan.name}</td>
+                              <td className="py-2 text-right">{plan.in_person} RON</td>
+                              <td className="py-2 text-right">{plan.online} RON</td>
+                            </tr>
+                          ))}
+                        </tbody>
+                      </table>
+                    </div>
+                  ) : competitor.financials.pricing.membership_monthly ? (
+                    <div className="grid gap-2 sm:grid-cols-3">
+                      {Object.entries(competitor.financials.pricing.membership_monthly).map(([tier, price]) => (
+                        <div key={tier} className="border rounded p-3">
+                          <p className="text-sm text-muted-foreground capitalize">{tier}</p>
+                          <p className="font-semibold">${price}/lună</p>
+                        </div>
+                      ))}
+                    </div>
+                  ) : (
+                    <p className="text-sm text-muted-foreground">
+                      {competitor.financials.pricing.model || competitor.financials.pricing.note}
+                    </p>
+                  )}
+                  {competitor.financials.pricing.vouchers_eligible && (
+                    <p className="mt-2 text-sm">
+                      <span className="text-green-600">✓ Vouchere:</span> {competitor.financials.pricing.vouchers_eligible.join(', ')}
+                    </p>
+                  )}
+                </div>
+              )}
+
+              {/* Revenue Estimates */}
+              <div className="grid gap-4 sm:grid-cols-2">
+                {competitor.financials.revenue_2025 && (
+                  <div className="border rounded-lg p-4">
+                    <h4 className="font-semibold mb-3 flex items-center gap-2">
+                      <Calendar className="h-4 w-4" /> 2025
+                    </h4>
+                    {competitor.financials.revenue_2025.model ? (
+                      <p className="text-sm text-muted-foreground mb-2">{competitor.financials.revenue_2025.model}</p>
+                    ) : null}
+                    <div className="space-y-2 text-sm">
+                      {competitor.financials.revenue_2025.monthly_min_eur && (
+                        <div className="flex justify-between">
+                          <span className="text-muted-foreground">Lunar:</span>
+                          <span className="font-medium">
+                            {competitor.financials.revenue_2025.monthly_min_eur?.toLocaleString()}-{competitor.financials.revenue_2025.monthly_max_eur?.toLocaleString()}€
+                          </span>
+                        </div>
+                      )}
+                      {competitor.financials.revenue_2025.annual_min_eur && (
+                        <div className="flex justify-between">
+                          <span className="text-muted-foreground">Anual:</span>
+                          <span className="font-semibold text-primary">
+                            {competitor.financials.revenue_2025.annual_min_eur?.toLocaleString()}-{competitor.financials.revenue_2025.annual_max_eur?.toLocaleString()}€
+                          </span>
+                        </div>
+                      )}
+                    </div>
+                    {competitor.financials.revenue_2025.note && (
+                      <p className="mt-2 text-xs text-muted-foreground">{competitor.financials.revenue_2025.note}</p>
+                    )}
+                  </div>
+                )}
+                {competitor.financials.revenue_2026 && (
+                  <div className="border rounded-lg p-4 border-primary/50 bg-primary/5">
+                    <h4 className="font-semibold mb-3 flex items-center gap-2">
+                      <Calendar className="h-4 w-4" /> 2026
+                      {competitor.financials.revenue_2026.growth_rate_percent && (
+                        <Badge variant="outline" className="text-green-600">
+                          +{competitor.financials.revenue_2026.growth_rate_percent}%
+                        </Badge>
+                      )}
+                    </h4>
+                    <div className="space-y-2 text-sm">
+                      {competitor.financials.revenue_2026.monthly_min_eur && (
+                        <div className="flex justify-between">
+                          <span className="text-muted-foreground">Lunar:</span>
+                          <span className="font-medium">
+                            {competitor.financials.revenue_2026.monthly_min_eur?.toLocaleString()}-{competitor.financials.revenue_2026.monthly_max_eur?.toLocaleString()}€
+                          </span>
+                        </div>
+                      )}
+                      {competitor.financials.revenue_2026.annual_min_eur && (
+                        <div className="flex justify-between">
+                          <span className="text-muted-foreground">Anual:</span>
+                          <span className="font-semibold text-primary">
+                            {competitor.financials.revenue_2026.annual_min_eur?.toLocaleString()}-{competitor.financials.revenue_2026.annual_max_eur?.toLocaleString()}€
+                          </span>
+                        </div>
+                      )}
+                    </div>
+                    {competitor.financials.revenue_2026.note && (
+                      <p className="mt-2 text-xs text-muted-foreground">{competitor.financials.revenue_2026.note}</p>
+                    )}
+                  </div>
+                )}
+              </div>
+
+              {/* Additional Revenue & Sponsors */}
+              <div className="grid gap-4 sm:grid-cols-2">
+                {competitor.financials.additional_revenue && (
+                  <div>
+                    <h4 className="font-semibold mb-2 text-sm">Surse adiționale</h4>
+                    <ul className="text-sm space-y-1">
+                      {competitor.financials.additional_revenue.map((r, i) => (
+                        <li key={i} className="text-muted-foreground">• {r}</li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
+                {competitor.financials.sponsors && (
+                  <div>
+                    <h4 className="font-semibold mb-2 text-sm">Sponsori</h4>
+                    <div className="flex flex-wrap gap-1">
+                      {competitor.financials.sponsors.map((s, i) => (
+                        <Badge key={i} variant="secondary" className="text-xs">{s}</Badge>
+                      ))}
+                    </div>
+                  </div>
+                )}
+              </div>
+            </div>
+          </CardContent>
+        </Card>
+      )}
     </div>
   );
 }

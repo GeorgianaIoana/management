@@ -17,6 +17,55 @@ export interface Location {
   address?: string;
 }
 
+export interface RevenueEstimate {
+  monthly_min_ron?: number;
+  monthly_max_ron?: number;
+  monthly_min_eur?: number;
+  monthly_max_eur?: number;
+  annual_min_ron?: number;
+  annual_max_ron?: number;
+  annual_min_eur?: number;
+  annual_max_eur?: number;
+  growth_rate_percent?: number;
+  note?: string;
+  model?: string;
+}
+
+export interface Financials {
+  pricing?: {
+    currency?: string;
+    model?: string;
+    monthly_plans?: Array<{ name: string; in_person?: number; online?: number }>;
+    adults?: { in_person?: number; online?: number };
+    estimated_monthly_range?: { min: number; max: number };
+    membership_monthly?: Record<string, number>;
+    membership_annual?: Record<string, number>;
+    discounts?: string[];
+    vouchers_eligible?: string[];
+    note?: string;
+  };
+  operations?: {
+    locations?: number;
+    instructors?: number;
+    active_members?: number;
+    facebook_followers?: number;
+    beneficiaries_2025?: number;
+    teachers_trained?: number;
+  };
+  estimates?: {
+    active_students?: { min: number; max: number };
+    avg_monthly_fee_ron?: number;
+    model?: string;
+    note?: string;
+  };
+  revenue_2025?: RevenueEstimate;
+  revenue_2026?: RevenueEstimate;
+  sponsors?: string[];
+  additional_revenue?: string[];
+  data_source?: string;
+  confidence?: 'low' | 'low-medium' | 'medium' | 'medium-high' | 'high';
+}
+
 export interface Competitor {
   id: string;
   name: string;
@@ -33,6 +82,7 @@ export interface Competitor {
     instagram?: { handle: string; followers: number; posts: number };
     twitter?: { handle: string; posts: number };
   };
+  financials?: Financials;
 }
 
 export const competitors: Competitor[] = [
@@ -85,6 +135,38 @@ export const competitors: Competitor[] = [
     socialMedia: {
       facebook: { name: 'Scoala De Sah', likes: 23572, activeUsers: 1587 },
       instagram: { handle: '@scoaladesah.ro', followers: 2526, posts: 1820 },
+    },
+    financials: {
+      pricing: {
+        currency: 'RON',
+        monthly_plans: [
+          { name: '1x/săpt (Rege)', in_person: 200, online: 190 },
+          { name: '2x/săpt (Pion)', in_person: 295, online: 250 },
+          { name: '3x/săpt (Călut)', in_person: 395, online: 350 },
+          { name: '4x/săpt (Turn)', in_person: 465, online: 420 },
+        ],
+        adults: { in_person: 280, online: 250 },
+        discounts: ['25% frați', '10% recomandare'],
+        vouchers_eligible: ['Sector 1', 'Sector 3'],
+      },
+      operations: { locations: 5, instructors: 17, facebook_followers: 23572 },
+      estimates: { active_students: { min: 400, max: 600 }, avg_monthly_fee_ron: 300 },
+      revenue_2025: {
+        monthly_min_ron: 100000, monthly_max_ron: 180000,
+        monthly_min_eur: 20000, monthly_max_eur: 36000,
+        annual_min_ron: 1200000, annual_max_ron: 2160000,
+        annual_min_eur: 240000, annual_max_eur: 432000,
+      },
+      revenue_2026: {
+        monthly_min_ron: 120000, monthly_max_ron: 200000,
+        monthly_min_eur: 24000, monthly_max_eur: 40000,
+        annual_min_ron: 1440000, annual_max_ron: 2400000,
+        annual_min_eur: 288000, annual_max_eur: 480000,
+        growth_rate_percent: 15,
+      },
+      additional_revenue: ['Vouchere primării 250 RON/lună/copil', 'Summer Chess Camp', 'Turnee interne'],
+      data_source: 'scoaladesah.ro, cercetare mai 2026',
+      confidence: 'medium',
     },
   },
   {
@@ -139,6 +221,32 @@ export const competitors: Competitor[] = [
       instagram: { handle: '@academiadesah', followers: 394, posts: 74 },
       twitter: { handle: '@AcademiadeSah', posts: 126 },
     },
+    financials: {
+      pricing: {
+        currency: 'RON',
+        note: 'Prețuri nedivulgate public',
+        estimated_monthly_range: { min: 250, max: 400 },
+        vouchers_eligible: ['Sector 1', 'Sector 2'],
+      },
+      operations: { locations: 5, facebook_followers: 37000 },
+      estimates: { active_students: { min: 400, max: 700 }, avg_monthly_fee_ron: 300, note: 'Cel mai mare număr de cursanți din București bazat pe palmares' },
+      revenue_2025: {
+        monthly_min_ron: 120000, monthly_max_ron: 210000,
+        monthly_min_eur: 24000, monthly_max_eur: 42000,
+        annual_min_ron: 1440000, annual_max_ron: 2520000,
+        annual_min_eur: 288000, annual_max_eur: 504000,
+      },
+      revenue_2026: {
+        monthly_min_ron: 140000, monthly_max_ron: 245000,
+        monthly_min_eur: 28000, monthly_max_eur: 49000,
+        annual_min_ron: 1680000, annual_max_ron: 2940000,
+        annual_min_eur: 336000, annual_max_eur: 588000,
+        growth_rate_percent: 17,
+      },
+      additional_revenue: ['Grand Prix MegaChess (taxe participare)', 'Tabere vară/iarnă (600-1500 RON/săpt)', 'ChessCraft Arena online'],
+      data_source: 'academiadesah.ro, cercetare mai 2026',
+      confidence: 'medium',
+    },
   },
   {
     id: '3',
@@ -189,6 +297,28 @@ export const competitors: Competitor[] = [
       facebook: { name: 'Șah în Școală', followers: 5000 },
       instagram: { handle: '@sahinscoala', followers: 44, posts: 33 },
     },
+    financials: {
+      pricing: {
+        model: 'Non-profit - gratuit pentru beneficiari',
+        note: 'Copiii și profesorii beneficiază gratuit, sponsorii plătesc',
+      },
+      operations: { beneficiaries_2025: 125000, teachers_trained: 2500 },
+      estimates: { model: 'sponsorship_based', note: 'Nu vinde cursuri - model complet diferit' },
+      revenue_2025: {
+        model: 'Sponsorizări corporate',
+        annual_min_ron: 500000, annual_max_ron: 1000000,
+        annual_min_eur: 100000, annual_max_eur: 200000,
+      },
+      revenue_2026: {
+        annual_min_ron: 600000, annual_max_ron: 1200000,
+        annual_min_eur: 120000, annual_max_eur: 240000,
+        growth_rate_percent: 20,
+        note: 'Creștere estimată după premiul Gala Societății Civile 2024',
+      },
+      sponsors: ['AQUA Carpatica', 'Rompetrol', 'UniCredit', 'Egger', 'Leier', 'Toyota Iași Est', 'Adservio'],
+      data_source: 'sahinscoala.org, cercetare mai 2026',
+      confidence: 'low-medium',
+    },
   },
   {
     id: '4',
@@ -237,6 +367,28 @@ export const competitors: Competitor[] = [
     socialMedia: {
       facebook: { name: 'CSU ASE București', likes: 4890 },
     },
+    financials: {
+      pricing: {
+        model: 'Club elită sponsorizat - nu vinde cursuri retail',
+        note: 'Revenue 100% din sponsori corporate',
+      },
+      operations: { facebook_followers: 4890 },
+      estimates: { model: 'corporate_sponsorship', note: 'Nu vinde cursuri - model complet diferit de școlile de șah' },
+      revenue_2025: {
+        model: 'Sponsorizări corporate',
+        annual_min_ron: 1000000, annual_max_ron: 2000000,
+        annual_min_eur: 200000, annual_max_eur: 400000,
+      },
+      revenue_2026: {
+        annual_min_ron: 1200000, annual_max_ron: 2500000,
+        annual_min_eur: 240000, annual_max_eur: 500000,
+        growth_rate_percent: 20,
+        note: 'Potențial creștere cu rezultate olimpice',
+      },
+      sponsors: ['Superbet (naming)', 'ONE United Properties', 'Mastercard', 'World Class'],
+      data_source: 'csu.ase.ro, cercetare mai 2026',
+      confidence: 'low',
+    },
   },
   {
     id: '5',
@@ -284,6 +436,29 @@ export const competitors: Competitor[] = [
     ],
     socialMedia: {
       facebook: { name: 'Saint Louis Chess Club', followers: 64706 },
+    },
+    financials: {
+      pricing: {
+        currency: 'USD',
+        membership_monthly: { student: 10, adult: 15 },
+        membership_annual: { student: 50, adult: 100, family: 150 },
+        note: 'Include: free private lesson, GM lectures, open play, library access, 15% shop discount',
+      },
+      operations: { active_members: 2000, facebook_followers: 64706 },
+      estimates: { model: 'patron_funded_nonprofit', note: 'Membership revenue e doar o fracțiune din buget - Rex Sinquefield $50M+ total' },
+      revenue_2025: {
+        annual_min_eur: 200000, annual_max_eur: 300000,
+        note: 'Membership only. Total budget estimat $3-5M (include turnee, broadcast, salarii GM)',
+      },
+      revenue_2026: {
+        annual_min_eur: 230000, annual_max_eur: 350000,
+        growth_rate_percent: 15,
+        note: 'Creștere estimată cu expansiunea 30,000 sq ft. Total budget $4-6M',
+      },
+      sponsors: ['Rex Sinquefield Foundation', 'Corporate donors', 'Foundation grants'],
+      additional_revenue: ['Tournament fees', 'Gift shop', 'Private lessons', 'Scholastic programs'],
+      data_source: 'saintlouischessclub.org, Wikipedia, cercetare mai 2026',
+      confidence: 'medium-high',
     },
   },
 ];
