@@ -42,7 +42,9 @@ export default function DocumenteAsociatiePage() {
   }, []);
 
   const masterDoc = documents.find(d => d.slug === 'the-square-master-2026');
-  const stlDoc = documents.find(d => d.slug === 'saint-louis-chess-club-analysis');
+  const analizaDoc = documents.find(d => d.slug === 'the-square-analiza-profunda');
+  // Filter out competitor documents - they belong in the competitors page
+  const internalDocs = documents.filter(d => d.category === 'internal');
 
   if (loading) {
     return (
@@ -63,7 +65,7 @@ export default function DocumenteAsociatiePage() {
 
       {/* Document Selector */}
       <div className="flex gap-4 flex-wrap">
-        {documents.map((doc) => (
+        {internalDocs.map((doc) => (
           <Card
             key={doc.id}
             className={`cursor-pointer transition-all hover:border-primary ${activeDoc === doc.slug ? 'border-primary bg-primary/5' : ''}`}
@@ -88,12 +90,12 @@ export default function DocumenteAsociatiePage() {
         <MasterDocumentView content={masterDoc.content as MasterDocContent} />
       )}
 
-      {/* Saint Louis Document Content */}
-      {activeDoc === 'saint-louis-chess-club-analysis' && stlDoc && (
-        <SaintLouisDocumentView content={stlDoc.content as STLDocContent} />
+      {/* Analiza Profunda Content */}
+      {activeDoc === 'the-square-analiza-profunda' && analizaDoc && (
+        <AnalizaProfundaView content={analizaDoc.content as AnalizaProfundaContent} />
       )}
 
-      {documents.length === 0 && (
+      {internalDocs.length === 0 && (
         <Card>
           <CardContent className="py-8 text-center text-muted-foreground">
             Nu există documente încărcate.
@@ -158,27 +160,59 @@ interface MasterDocContent {
   }>;
 }
 
-interface STLDocContent {
-  overview: {
-    name: string;
-    website: string;
-    address: string;
-    founded: number;
-    founder: string;
-    designation: string;
+interface AnalizaProfundaContent {
+  positioning: {
+    tagline: string;
+    target_segment: string;
+    differentiator: string;
+    age_years: number;
+    initial_investment_eur: number;
   };
-  key_metrics: Record<string, string | number>;
   golden_reasons: Array<{
     rank: number;
     title: string;
     description: string;
+    year: string;
   }>;
-  vulnerabilities: string[];
-  lessons_for_the_square: string[];
+  comparison_table: {
+    headers: string[];
+    rows: Array<Record<string, string>>;
+  };
+  business_model: Record<string, unknown>;
+  acquisition_channels: Array<{
+    channel: string;
+    type: string;
+    description: string;
+  }>;
+  strengths: string[];
+  vulnerabilities: Array<{
+    issue: string;
+    detail: string;
+  }>;
+  opportunities: Array<{
+    opportunity: string;
+    action: string;
+    priority: string;
+  }>;
   timeline: Array<{
-    year: number;
+    year: number | string;
     event: string;
   }>;
+  founders_detail: Array<{
+    name: string;
+    role: string;
+    palmares_national?: string[];
+    palmares_international?: string[];
+    background?: string | string[];
+    experience?: string;
+    responsibilities?: string;
+  }>;
+  design_team: Array<{
+    name: string;
+    role: string;
+    contribution: string;
+  }>;
+  conclusion: string;
 }
 
 function MasterDocumentView({ content }: { content: MasterDocContent }) {
@@ -438,43 +472,44 @@ function MasterDocumentView({ content }: { content: MasterDocContent }) {
   );
 }
 
-function SaintLouisDocumentView({ content }: { content: STLDocContent }) {
+function AnalizaProfundaView({ content }: { content: AnalizaProfundaContent }) {
   return (
-    <Tabs defaultValue="overview" className="space-y-4">
+    <Tabs defaultValue="positioning" className="space-y-4">
       <TabsList className="flex-wrap h-auto gap-1">
-        <TabsTrigger value="overview">Overview</TabsTrigger>
-        <TabsTrigger value="metrics">Metrici</TabsTrigger>
+        <TabsTrigger value="positioning">Poziționare</TabsTrigger>
         <TabsTrigger value="golden">7 Motive de Aur</TabsTrigger>
-        <TabsTrigger value="vulnerabilities">Vulnerabilități</TabsTrigger>
-        <TabsTrigger value="lessons">Lecții pentru The Square</TabsTrigger>
+        <TabsTrigger value="comparison">Comparație</TabsTrigger>
+        <TabsTrigger value="channels">Canale Achiziție</TabsTrigger>
+        <TabsTrigger value="swot">Strengths & Vulnerabilități</TabsTrigger>
+        <TabsTrigger value="opportunities">Oportunități</TabsTrigger>
+        <TabsTrigger value="founders">Fondatori & Echipă</TabsTrigger>
         <TabsTrigger value="timeline">Timeline</TabsTrigger>
       </TabsList>
 
-      <TabsContent value="overview">
+      <TabsContent value="positioning">
         <Card>
           <CardHeader>
-            <CardTitle>{content.overview.name}</CardTitle>
-            <CardDescription>{content.overview.designation}</CardDescription>
+            <CardTitle>Poziționare THE SQUARE</CardTitle>
+            <CardDescription>{content.positioning.tagline}</CardDescription>
           </CardHeader>
-          <CardContent className="space-y-2">
-            <p><strong>Website:</strong> {content.overview.website}</p>
-            <p><strong>Adresă:</strong> {content.overview.address}</p>
-            <p><strong>Fondator:</strong> {content.overview.founder}</p>
-            <p><strong>Înființat:</strong> {content.overview.founded}</p>
-          </CardContent>
-        </Card>
-      </TabsContent>
-
-      <TabsContent value="metrics">
-        <Card>
-          <CardContent className="pt-6">
-            <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-              {Object.entries(content.key_metrics).map(([key, value]) => (
-                <div key={key} className="flex justify-between border-b pb-2">
-                  <span className="text-muted-foreground text-sm">{key.replace(/_/g, ' ')}</span>
-                  <span className="font-semibold">{value}</span>
-                </div>
-              ))}
+          <CardContent className="space-y-4">
+            <div className="grid gap-4 sm:grid-cols-2">
+              <div>
+                <p className="text-sm text-muted-foreground">Segment țintă</p>
+                <p className="font-semibold">{content.positioning.target_segment}</p>
+              </div>
+              <div>
+                <p className="text-sm text-muted-foreground">Diferențiator</p>
+                <p className="font-semibold">{content.positioning.differentiator}</p>
+              </div>
+              <div>
+                <p className="text-sm text-muted-foreground">Vechime</p>
+                <p className="font-semibold">{content.positioning.age_years} ani</p>
+              </div>
+              <div>
+                <p className="text-sm text-muted-foreground">Investiție inițială</p>
+                <p className="font-semibold">{content.positioning.initial_investment_eur.toLocaleString()} EUR</p>
+              </div>
             </div>
           </CardContent>
         </Card>
@@ -486,12 +521,13 @@ function SaintLouisDocumentView({ content }: { content: STLDocContent }) {
             <Card key={reason.rank}>
               <CardContent className="pt-4">
                 <div className="flex items-start gap-4">
-                  <div className="flex h-10 w-10 items-center justify-center rounded-full bg-amber-500 text-white font-bold">
+                  <div className="flex h-10 w-10 items-center justify-center rounded-full bg-primary text-primary-foreground font-bold">
                     {reason.rank}
                   </div>
-                  <div>
+                  <div className="flex-1">
                     <h4 className="font-semibold">{reason.title}</h4>
                     <p className="text-sm text-muted-foreground mt-1">{reason.description}</p>
+                    <Badge variant="outline" className="mt-2">{reason.year}</Badge>
                   </div>
                 </div>
               </CardContent>
@@ -500,44 +536,179 @@ function SaintLouisDocumentView({ content }: { content: STLDocContent }) {
         </div>
       </TabsContent>
 
-      <TabsContent value="vulnerabilities">
+      <TabsContent value="comparison">
         <Card>
           <CardHeader>
-            <CardTitle className="flex items-center gap-2 text-orange-600">
-              <AlertTriangle className="h-5 w-5" /> Vulnerabilități STLCC
-            </CardTitle>
+            <CardTitle>Comparație cu competitorii</CardTitle>
+            <CardDescription>THE SQUARE vs cluburile tradiționale din București</CardDescription>
           </CardHeader>
           <CardContent>
-            <ul className="space-y-3">
-              {content.vulnerabilities.map((v, i) => (
-                <li key={i} className="flex items-start gap-2 text-sm">
-                  <span className="text-orange-600 mt-1">⚠</span>
-                  {v}
-                </li>
-              ))}
-            </ul>
+            <div className="overflow-x-auto">
+              <table className="w-full text-sm">
+                <thead>
+                  <tr className="border-b">
+                    {content.comparison_table.headers.map((h, i) => (
+                      <th key={i} className={`py-2 px-3 ${i === 0 ? 'text-left' : 'text-center'}`}>{h}</th>
+                    ))}
+                  </tr>
+                </thead>
+                <tbody>
+                  {content.comparison_table.rows.map((row, i) => (
+                    <tr key={i} className="border-b last:border-0">
+                      <td className="py-2 px-3 font-medium">{row.indicator}</td>
+                      <td className="py-2 px-3 text-center text-primary font-semibold">{row.the_square}</td>
+                      <td className="py-2 px-3 text-center text-muted-foreground">{row.csu}</td>
+                      <td className="py-2 px-3 text-center text-muted-foreground">{row.acs}</td>
+                      <td className="py-2 px-3 text-center text-muted-foreground">{row.csu_ase}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
           </CardContent>
         </Card>
       </TabsContent>
 
-      <TabsContent value="lessons">
+      <TabsContent value="channels">
         <Card>
           <CardHeader>
-            <CardTitle className="flex items-center gap-2 text-primary">
-              <Lightbulb className="h-5 w-5" /> Lecții pentru The Square
-            </CardTitle>
+            <CardTitle>Canale de achiziție</CardTitle>
           </CardHeader>
           <CardContent>
-            <ul className="space-y-3">
-              {content.lessons_for_the_square.map((lesson, i) => (
-                <li key={i} className="flex items-start gap-2 text-sm">
-                  <span className="text-primary mt-1">💡</span>
-                  {lesson}
-                </li>
+            <div className="space-y-3">
+              {content.acquisition_channels.map((ch, i) => (
+                <div key={i} className="flex items-start gap-3 p-3 border rounded-lg">
+                  <Badge variant="outline">{ch.type}</Badge>
+                  <div>
+                    <p className="font-medium">{ch.channel}</p>
+                    <p className="text-sm text-muted-foreground">{ch.description}</p>
+                  </div>
+                </div>
               ))}
-            </ul>
+            </div>
           </CardContent>
         </Card>
+      </TabsContent>
+
+      <TabsContent value="swot">
+        <div className="grid gap-4 md:grid-cols-2">
+          <Card className="border-green-500/50">
+            <CardHeader>
+              <CardTitle className="flex items-center gap-2 text-green-600">
+                <CheckCircle2 className="h-5 w-5" /> Strengths
+              </CardTitle>
+            </CardHeader>
+            <CardContent>
+              <ul className="space-y-2">
+                {content.strengths.map((s, i) => (
+                  <li key={i} className="text-sm flex gap-2">
+                    <span className="text-green-600">✓</span> {s}
+                  </li>
+                ))}
+              </ul>
+            </CardContent>
+          </Card>
+          <Card className="border-orange-500/50">
+            <CardHeader>
+              <CardTitle className="flex items-center gap-2 text-orange-600">
+                <AlertTriangle className="h-5 w-5" /> Vulnerabilități
+              </CardTitle>
+            </CardHeader>
+            <CardContent>
+              <ul className="space-y-3">
+                {content.vulnerabilities.map((v, i) => (
+                  <li key={i} className="text-sm">
+                    <span className="font-medium text-orange-600">{v.issue}:</span>{' '}
+                    <span className="text-muted-foreground">{v.detail}</span>
+                  </li>
+                ))}
+              </ul>
+            </CardContent>
+          </Card>
+        </div>
+      </TabsContent>
+
+      <TabsContent value="opportunities">
+        <div className="space-y-3">
+          {content.opportunities.map((opp, i) => (
+            <Card key={i}>
+              <CardContent className="pt-4">
+                <div className="flex items-start justify-between gap-4">
+                  <div>
+                    <h4 className="font-semibold">{opp.opportunity}</h4>
+                    <p className="text-sm text-muted-foreground mt-1">{opp.action}</p>
+                  </div>
+                  <Badge variant={opp.priority === 'MAXIMA' || opp.priority === 'INALTA' ? 'default' : 'secondary'}>
+                    {opp.priority}
+                  </Badge>
+                </div>
+              </CardContent>
+            </Card>
+          ))}
+        </div>
+      </TabsContent>
+
+      <TabsContent value="founders">
+        <div className="space-y-4">
+          <h3 className="text-lg font-semibold">Fondatori</h3>
+          <div className="grid gap-4 md:grid-cols-3">
+            {content.founders_detail.map((founder, i) => (
+              <Card key={i}>
+                <CardHeader>
+                  <CardTitle className="text-lg">{founder.name}</CardTitle>
+                  <CardDescription>{founder.role}</CardDescription>
+                </CardHeader>
+                <CardContent className="space-y-3 text-sm">
+                  {founder.palmares_national && (
+                    <div>
+                      <p className="font-medium">Palmares național:</p>
+                      <ul className="text-muted-foreground">
+                        {founder.palmares_national.map((p, j) => <li key={j}>• {p}</li>)}
+                      </ul>
+                    </div>
+                  )}
+                  {founder.palmares_international && (
+                    <div>
+                      <p className="font-medium">Palmares internațional:</p>
+                      <ul className="text-muted-foreground">
+                        {founder.palmares_international.map((p, j) => <li key={j}>• {p}</li>)}
+                      </ul>
+                    </div>
+                  )}
+                  {founder.background && (
+                    <div>
+                      <p className="font-medium">Background:</p>
+                      {Array.isArray(founder.background) ? (
+                        <ul className="text-muted-foreground">
+                          {founder.background.map((b, j) => <li key={j}>• {b}</li>)}
+                        </ul>
+                      ) : (
+                        <p className="text-muted-foreground">{founder.background}</p>
+                      )}
+                    </div>
+                  )}
+                  {founder.experience && <p className="text-muted-foreground">{founder.experience}</p>}
+                  {founder.responsibilities && <p className="text-muted-foreground">{founder.responsibilities}</p>}
+                </CardContent>
+              </Card>
+            ))}
+          </div>
+
+          <h3 className="text-lg font-semibold mt-6">Echipa de Design</h3>
+          <div className="grid gap-4 md:grid-cols-3">
+            {content.design_team.map((member, i) => (
+              <Card key={i}>
+                <CardHeader className="pb-2">
+                  <CardTitle className="text-base">{member.name}</CardTitle>
+                  <CardDescription>{member.role}</CardDescription>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-sm text-muted-foreground">{member.contribution}</p>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
+        </div>
       </TabsContent>
 
       <TabsContent value="timeline">
@@ -546,13 +717,22 @@ function SaintLouisDocumentView({ content }: { content: STLDocContent }) {
             <div className="space-y-4">
               {content.timeline.map((item, i) => (
                 <div key={i} className="flex gap-4 items-start">
-                  <div className="flex h-12 w-16 items-center justify-center rounded bg-muted font-bold text-sm">
+                  <div className="flex h-12 min-w-[4.5rem] items-center justify-center rounded bg-muted font-bold text-sm">
                     {item.year}
                   </div>
                   <p className="text-sm flex-1 pt-3">{item.event}</p>
                 </div>
               ))}
             </div>
+          </CardContent>
+        </Card>
+
+        <Card className="mt-4 border-primary">
+          <CardHeader>
+            <CardTitle>Concluzie</CardTitle>
+          </CardHeader>
+          <CardContent>
+            <p className="text-sm">{content.conclusion}</p>
           </CardContent>
         </Card>
       </TabsContent>
