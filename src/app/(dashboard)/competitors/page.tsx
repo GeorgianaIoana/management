@@ -332,6 +332,85 @@ function CompetitorCard({ competitor }: { competitor: Competitor }) {
                 )}
               </div>
 
+              {/* Net Income Estimates */}
+              {(competitor.financials.net_income_2025 || competitor.financials.net_income_2026) && (
+                <div>
+                  <h4 className="font-semibold mb-3 flex items-center gap-2">
+                    <DollarSign className="h-4 w-4 text-green-600" /> Venit Net Estimat
+                  </h4>
+                  <div className="grid gap-4 sm:grid-cols-2">
+                    {competitor.financials.net_income_2025 && (
+                      <div className="border rounded-lg p-4 bg-green-50/50">
+                        <h5 className="font-medium mb-2">2025</h5>
+                        <div className="space-y-1 text-sm">
+                          {competitor.financials.net_income_2025.min_eur !== undefined && (
+                            <div className="flex justify-between">
+                              <span className="text-muted-foreground">Net:</span>
+                              <span className={`font-semibold ${competitor.financials.net_income_2025.min_eur < 0 ? 'text-red-600' : 'text-green-600'}`}>
+                                {competitor.financials.net_income_2025.min_eur?.toLocaleString()}-{competitor.financials.net_income_2025.max_eur?.toLocaleString()}€
+                              </span>
+                            </div>
+                          )}
+                          {competitor.financials.net_income_2025.min_usd !== undefined && (
+                            <div className="flex justify-between">
+                              <span className="text-muted-foreground">Net:</span>
+                              <span className="font-semibold text-green-600">
+                                ${competitor.financials.net_income_2025.min_usd?.toLocaleString()}-{competitor.financials.net_income_2025.max_usd?.toLocaleString()}
+                              </span>
+                            </div>
+                          )}
+                          {competitor.financials.net_income_2025.margin_percent_max !== undefined && (
+                            <div className="flex justify-between">
+                              <span className="text-muted-foreground">Marjă:</span>
+                              <span className="font-medium">
+                                {competitor.financials.net_income_2025.margin_percent_min}-{competitor.financials.net_income_2025.margin_percent_max}%
+                              </span>
+                            </div>
+                          )}
+                        </div>
+                        {competitor.financials.net_income_2025.note && (
+                          <p className="mt-2 text-xs text-muted-foreground">{competitor.financials.net_income_2025.note}</p>
+                        )}
+                      </div>
+                    )}
+                    {competitor.financials.net_income_2026 && (
+                      <div className="border rounded-lg p-4 bg-green-100/50 border-green-300">
+                        <h5 className="font-medium mb-2">2026</h5>
+                        <div className="space-y-1 text-sm">
+                          {competitor.financials.net_income_2026.min_eur !== undefined && (
+                            <div className="flex justify-between">
+                              <span className="text-muted-foreground">Net:</span>
+                              <span className={`font-semibold ${competitor.financials.net_income_2026.min_eur < 0 ? 'text-red-600' : 'text-green-600'}`}>
+                                {competitor.financials.net_income_2026.min_eur?.toLocaleString()}-{competitor.financials.net_income_2026.max_eur?.toLocaleString()}€
+                              </span>
+                            </div>
+                          )}
+                          {competitor.financials.net_income_2026.min_usd !== undefined && (
+                            <div className="flex justify-between">
+                              <span className="text-muted-foreground">Net:</span>
+                              <span className="font-semibold text-green-600">
+                                ${competitor.financials.net_income_2026.min_usd?.toLocaleString()}-{competitor.financials.net_income_2026.max_usd?.toLocaleString()}
+                              </span>
+                            </div>
+                          )}
+                          {competitor.financials.net_income_2026.margin_percent_max !== undefined && (
+                            <div className="flex justify-between">
+                              <span className="text-muted-foreground">Marjă:</span>
+                              <span className="font-medium">
+                                {competitor.financials.net_income_2026.margin_percent_min}-{competitor.financials.net_income_2026.margin_percent_max}%
+                              </span>
+                            </div>
+                          )}
+                        </div>
+                        {competitor.financials.net_income_2026.note && (
+                          <p className="mt-2 text-xs text-muted-foreground">{competitor.financials.net_income_2026.note}</p>
+                        )}
+                      </div>
+                    )}
+                  </div>
+                </div>
+              )}
+
               {/* Additional Revenue & Sponsors */}
               <div className="grid gap-4 sm:grid-cols-2">
                 {competitor.financials.additional_revenue && (

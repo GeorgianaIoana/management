@@ -31,6 +31,28 @@ export interface RevenueEstimate {
   model?: string;
 }
 
+export interface NetIncomeEstimate {
+  min_ron?: number;
+  max_ron?: number;
+  min_eur?: number;
+  max_eur?: number;
+  min_usd?: number;
+  max_usd?: number;
+  margin_percent_min?: number;
+  margin_percent_max?: number;
+  note?: string;
+}
+
+export interface CostStructure {
+  instructors?: { count: number; avg_monthly_ron?: number; annual_ron: number };
+  rent?: { locations: number; avg_monthly_per_location_ron?: number; annual_ron: number };
+  utilities_materials?: { monthly_ron?: number; annual_ron: number };
+  admin_marketing_percent?: number;
+  total_estimated_annual_ron?: number;
+  model?: string;
+  source?: string;
+}
+
 export interface Financials {
   pricing?: {
     currency?: string;
@@ -60,6 +82,9 @@ export interface Financials {
   };
   revenue_2025?: RevenueEstimate;
   revenue_2026?: RevenueEstimate;
+  cost_structure?: CostStructure;
+  net_income_2025?: NetIncomeEstimate;
+  net_income_2026?: NetIncomeEstimate;
   sponsors?: string[];
   additional_revenue?: string[];
   data_source?: string;
@@ -165,6 +190,25 @@ export const competitors: Competitor[] = [
         growth_rate_percent: 15,
       },
       additional_revenue: ['Vouchere primării 250 RON/lună/copil', 'Summer Chess Camp', 'Turnee interne'],
+      cost_structure: {
+        instructors: { count: 17, avg_monthly_ron: 4000, annual_ron: 816000 },
+        rent: { locations: 5, avg_monthly_per_location_ron: 5000, annual_ron: 300000 },
+        utilities_materials: { monthly_ron: 15000, annual_ron: 180000 },
+        admin_marketing_percent: 10,
+        total_estimated_annual_ron: 1450000,
+      },
+      net_income_2025: {
+        min_ron: -50000, max_ron: 700000,
+        min_eur: -10000, max_eur: 140000,
+        margin_percent_min: 0, margin_percent_max: 35,
+        note: 'Marje variabile în funcție de ocupare și sezonalitate',
+      },
+      net_income_2026: {
+        min_ron: 50000, max_ron: 950000,
+        min_eur: 10000, max_eur: 190000,
+        margin_percent_min: 5, margin_percent_max: 40,
+        note: 'Creștere estimată prin vouchere primării și optimizare costuri',
+      },
       data_source: 'scoaladesah.ro, cercetare mai 2026',
       confidence: 'medium',
     },
@@ -244,6 +288,25 @@ export const competitors: Competitor[] = [
         growth_rate_percent: 17,
       },
       additional_revenue: ['Grand Prix MegaChess (taxe participare)', 'Tabere vară/iarnă (600-1500 RON/săpt)', 'ChessCraft Arena online'],
+      cost_structure: {
+        instructors: { count: 15, avg_monthly_ron: 4500, annual_ron: 810000 },
+        rent: { locations: 5, avg_monthly_per_location_ron: 6000, annual_ron: 360000 },
+        utilities_materials: { monthly_ron: 18000, annual_ron: 216000 },
+        admin_marketing_percent: 12,
+        total_estimated_annual_ron: 1550000,
+      },
+      net_income_2025: {
+        min_ron: -100000, max_ron: 970000,
+        min_eur: -20000, max_eur: 194000,
+        margin_percent_min: 0, margin_percent_max: 38,
+        note: 'Marje mai mari datorită turneelor și taberelor cu marjă ridicată',
+      },
+      net_income_2026: {
+        min_ron: 130000, max_ron: 1390000,
+        min_eur: 26000, max_eur: 278000,
+        margin_percent_min: 8, margin_percent_max: 47,
+        note: 'Potențial cel mai profitabil club din București dacă menține palmaresul',
+      },
       data_source: 'academiadesah.ro, cercetare mai 2026',
       confidence: 'medium',
     },
@@ -316,6 +379,22 @@ export const competitors: Competitor[] = [
         note: 'Creștere estimată după premiul Gala Societății Civile 2024',
       },
       sponsors: ['AQUA Carpatica', 'Rompetrol', 'UniCredit', 'Egger', 'Leier', 'Toyota Iași Est', 'Adservio'],
+      cost_structure: {
+        model: 'Non-profit - toate fondurile reinvestite în program',
+        total_estimated_annual_ron: 600000,
+      },
+      net_income_2025: {
+        min_ron: 0, max_ron: 0,
+        min_eur: 0, max_eur: 0,
+        margin_percent_min: 0, margin_percent_max: 0,
+        note: 'Non-profit - surplus reinvestit în extindere program',
+      },
+      net_income_2026: {
+        min_ron: 0, max_ron: 0,
+        min_eur: 0, max_eur: 0,
+        margin_percent_min: 0, margin_percent_max: 0,
+        note: 'Model non-profit - nu generează profit distribuit',
+      },
       data_source: 'sahinscoala.org, cercetare mai 2026',
       confidence: 'low-medium',
     },
@@ -386,6 +465,22 @@ export const competitors: Competitor[] = [
         note: 'Potențial creștere cu rezultate olimpice',
       },
       sponsors: ['Superbet (naming)', 'ONE United Properties', 'Mastercard', 'World Class'],
+      cost_structure: {
+        model: 'Club sponsorizat - costuri acoperite de sponsori',
+        total_estimated_annual_ron: 1400000,
+      },
+      net_income_2025: {
+        min_ron: -200000, max_ron: 600000,
+        min_eur: -40000, max_eur: 120000,
+        margin_percent_min: -10, margin_percent_max: 30,
+        note: 'Variabil - depinde de performanțe și bonusuri sponsori',
+      },
+      net_income_2026: {
+        min_ron: -100000, max_ron: 1100000,
+        min_eur: -20000, max_eur: 220000,
+        margin_percent_min: -5, margin_percent_max: 44,
+        note: 'Potențial surplus mare cu rezultate olimpice bune',
+      },
       data_source: 'csu.ase.ro, cercetare mai 2026',
       confidence: 'low',
     },
@@ -457,7 +552,23 @@ export const competitors: Competitor[] = [
       },
       sponsors: ['Rex Sinquefield Foundation', 'Corporate donors', 'Foundation grants'],
       additional_revenue: ['Tournament fees', 'Gift shop', 'Private lessons', 'Scholastic programs'],
-      data_source: 'saintlouischessclub.org, Wikipedia, cercetare mai 2026',
+      cost_structure: {
+        source: 'IRS Form 990 (2020 filing)',
+        total_estimated_annual_ron: 70000000,
+      },
+      net_income_2025: {
+        min_usd: 800000, max_usd: 1500000,
+        min_eur: 740000, max_eur: 1400000,
+        margin_percent_min: 5, margin_percent_max: 10,
+        note: 'Bazat pe Form 990 istoric - net income $1.16M în 2020',
+      },
+      net_income_2026: {
+        min_usd: 1000000, max_usd: 2000000,
+        min_eur: 920000, max_eur: 1850000,
+        margin_percent_min: 6, margin_percent_max: 12,
+        note: 'Creștere estimată cu expansiunea 30,000 sq ft și evenimente noi',
+      },
+      data_source: 'saintlouischessclub.org, IRS Form 990, ProPublica, cercetare mai 2026',
       confidence: 'medium-high',
     },
   },
