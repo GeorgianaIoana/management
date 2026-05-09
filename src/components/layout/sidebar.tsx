@@ -30,6 +30,7 @@ import {
   ChevronDown,
   ChevronUp,
   Target,
+  Compass,
   MapPin,
   Handshake,
   FlaskConical,
@@ -78,8 +79,8 @@ const navigationGroups = [
     defaultExpanded: false,
     items: [
       { name: 'Projects', href: '/projects', icon: FolderKanban },
+      { name: 'Strategy', href: '/strategy', icon: Compass },
       { name: 'Analytics', href: '/analytics', icon: BarChart3 },
-      { name: 'Productivity', href: '/productivity', icon: Target },
     ],
   },
   {
