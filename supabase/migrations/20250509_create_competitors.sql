@@ -115,7 +115,7 @@ INSERT INTO competitors (name, website, description, founded_year, key_mechanism
     {"rank": 2, "name": "Distribuție gratuită materiale", "description": "80.000 manuale + 17.000 seturi de șah distribuite gratuit în 37 de județe - elimină bariera materială pentru orice școală", "year": "2015-2025"},
     {"rank": 3, "name": "Formare gratuită profesori CCD Iași", "description": "Curs 27 ore (24h + 3h evaluare) online ZOOM, gratuit, acreditat - 2.500 profesori formați care devin multiplicatori (30-60 elevi/an)", "year": "2015-2025"},
     {"rank": 4, "name": "Premiul Gala Societății Civile 2024", "description": "Locul I la cea mai importantă recunoaștere pentru proiecte civice - deschide automat ușile la Ministerul Educației, primării și sponsori noi", "year": "2024"},
-    {"rank": 5, "name": "Evenimentul „România 6000"", "description": "6.000 copii joacă șah simultan în 60 de localități pe Ziua Mondială a Educației (5 octombrie) - format viral pentru presă națională", "year": "2024"},
+    {"rank": 5, "name": "Evenimentul Romania 6000", "description": "6.000 copii joacă șah simultan în 60 de localități pe Ziua Mondială a Educației (5 octombrie) - format viral pentru presă națională", "year": "2024"},
     {"rank": 6, "name": "Parteneriate mall-uri", "description": "Concursuri gratuite la Iulius Mall, Shopping City (100-300 copii/eveniment) - mall oferă spațiu, proiectul aduce trafic și conținut", "year": "2024-2025"},
     {"rank": 7, "name": "Coaliție corporate diversificată", "description": "AQUA Carpatica, Rompetrol, UniCredit, Egger, Leier, Toyota Iași Est, Adservio - diversitate sectorială reduce riscul de colaps", "year": "2018-2025"}
   ]'::jsonb,
@@ -129,7 +129,7 @@ INSERT INTO competitors (name, website, description, founded_year, key_mechanism
     {"channel": "Circuitul Național", "segment": "Profesori formați - retenție", "cost": "Mic"}
   ]'::jsonb,
   '["125.000 copii beneficiari în 2025 (creștere 316% din 2022)", "Acoperire națională: 37 județe, 270 evenimente/an", "2.500 profesori formați gratuit - multiplicatori în sistem", "Locul I Gala Societății Civile 2024 - credibilitate maximă", "AQUA Carpatica partener 10+ ani - stabilitate financiară", "Model non-profit unic: sponsori plătesc, copii/profesori beneficiază gratuit", "Acreditare CCD Iași - credite formare profesională obligatorii"]'::jsonb,
-  '["Instagram aproape inexistent (44 followers vs 125.000 beneficiari)", "Dependență ridicată de sponsorul ancoră AQUA Carpatica", "Concentrare geografică pe Iași/Moldova - Vest subdezvolvat", "Confuzie de brand cu „șah în școală" generic (CSU folosește același termen)", "Lipsa platformei tehnologice (fără LMS, fără joc online între școli)", "Vulnerabil la schimbări politice la Ministerul Educației"]'::jsonb,
+  '["Instagram aproape inexistent (44 followers vs 125.000 beneficiari)", "Dependență ridicată de sponsorul ancoră AQUA Carpatica", "Concentrare geografică pe Iași/Moldova - Vest subdezvolvat", "Confuzie de brand cu sah in scoala generic (CSU folosește același termen)", "Lipsa platformei tehnologice (fără LMS, fără joc online între școli)", "Vulnerabil la schimbări politice la Ministerul Educației"]'::jsonb,
   '[
     {"name": "Sediu Iași (origine)", "sector": 0},
     {"name": "Acoperire națională - 37 județe", "sector": 0}
@@ -141,7 +141,7 @@ INSERT INTO competitors (name, website, description, founded_year, key_mechanism
 INSERT INTO competitors (name, website, description, founded_year, key_mechanisms, acquisition_channels, strengths, weaknesses, locations, social_media) VALUES (
   'CSU ASE Superbet',
   'csu.ase.ro',
-  'Club universitar de elită - „cel mai puternic club de șah din România", 4/5 membri echipă olimpică masculină, Anand pe board 1',
+  'Club universitar de elită - cel mai puternic club de șah din România, 4/5 membri echipă olimpică masculină, Anand pe board 1',
   2017,
   '[
     {"rank": 1, "name": "Brand-ul ASE - credibilitate instituțională", "description": "Universitate de 100+ ani, 60.680 followers Facebook - asocierea cu ASE = asociere cu elita academică românească, deschide automat ușa CSR", "year": "2017"},
@@ -161,7 +161,7 @@ INSERT INTO competitors (name, website, description, founded_year, key_mechanism
     {"channel": "Aula Magna ASE pentru semnări", "segment": "Sponsori care vor PR formal", "cost": "Foarte mic"},
     {"channel": "Ecosistem Superbet ca signaling", "segment": "Sponsori conservatori", "cost": "Foarte mic"}
   ]'::jsonb,
-  '["4/5 membri echipă olimpică masculină + 3/5 feminină", "Viswanathan Anand (5x campion mondial) pe board 1 - primul >2.800 ELO la club românesc", "Campioni Superliga Națională din 2022 (masculin + feminin)", "Argint Cupa Cluburilor Europene 2022 - prima medalie RO în 24 ani", "Coaliție sponsori: Superbet, ONE United Properties, Mastercard, World Class", "Brand ASE 100+ ani - credibilitate instituțională imposibil de replicat", "Ivan Sokolov - „cel mai pe val antrenor al momentului""]'::jsonb,
+  '["4/5 membri echipă olimpică masculină + 3/5 feminină", "Viswanathan Anand (5x campion mondial) pe board 1 - primul >2.800 ELO la club românesc", "Campioni Superliga Națională din 2022 (masculin + feminin)", "Argint Cupa Cluburilor Europene 2022 - prima medalie RO în 24 ani", "Coaliție sponsori: Superbet, ONE United Properties, Mastercard, World Class", "Brand ASE 100+ ani - credibilitate instituțională imposibil de replicat", "Ivan Sokolov - cel mai pe val antrenor al momentului"]'::jsonb,
   '["Dependență ridicată de Superbet - numele clubului depinde de sponsor", "Concentrare pe seniori - nu construiește pipeline juniori propriu", "Facebook doar 4.890 likes (vs 37.000 ACS Oxygen, 23.572 CSU București)", "Asseturi non-românești (Anand, Saduakassova) - risc reputațional", "Dependență de un singur om - Tiberiu Georgescu", "Nu vinde cursuri retail - model incompatibil cu achiziție părinți"]'::jsonb,
   '[
     {"name": "Sediu Occidentului", "sector": 1, "address": "str. Occidentului nr. 7"}
