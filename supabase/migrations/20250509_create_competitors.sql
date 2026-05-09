@@ -136,3 +136,35 @@ INSERT INTO competitors (name, website, description, founded_year, key_mechanism
   ]'::jsonb,
   '{"facebook": {"name": "Șah în Școală", "followers": 5000}, "instagram": {"handle": "@sahinscoala", "followers": 44, "posts": 33}}'::jsonb
 );
+
+-- Insert CSU ASE Superbet
+INSERT INTO competitors (name, website, description, founded_year, key_mechanisms, acquisition_channels, strengths, weaknesses, locations, social_media) VALUES (
+  'CSU ASE Superbet',
+  'csu.ase.ro',
+  'Club universitar de elită - „cel mai puternic club de șah din România", 4/5 membri echipă olimpică masculină, Anand pe board 1',
+  2017,
+  '[
+    {"rank": 1, "name": "Brand-ul ASE - credibilitate instituțională", "description": "Universitate de 100+ ani, 60.680 followers Facebook - asocierea cu ASE = asociere cu elita academică românească, deschide automat ușa CSR", "year": "2017"},
+    {"rank": 2, "name": "Echipa olimpică națională ca active", "description": "4/5 membri echipă olimpică masculină (Lupulescu, Pârligras, Gavrilescu, Jianu) + 3/5 feminină - sponsorul investește în echipa națională prin vehicul", "year": "2022"},
+    {"rank": 3, "name": "Deal-ul transformator Superbet", "description": "Parteneriat cu Grupul și Fundația Superbet (toamna 2022) - rebranding în CSU ASE Superbet, finanțare deplasări europene, buget legitimare Anand", "year": "2022"},
+    {"rank": 4, "name": "Performanță instantanee măsurabilă", "description": "Aur Superliga masculin+feminin (sept 2022), Argint Cupa Europeană feminin (oct 2022) - ROI imediat pentru sponsor", "year": "2022"},
+    {"rank": 5, "name": "Asseturi globale - Anand, Sokolov", "description": "Viswanathan Anand (5x campion mondial, >2.800 ELO) + Ivan Sokolov antrenor - acoperire presă internațională, nu doar românească", "year": "2022"},
+    {"rank": 6, "name": "Club multi-sport - vânzare segmentată", "description": "10+ secțiuni (șah, baschet, volei, e-sports, fitness etc.) - fiecare sponsor își alege secțiunea (Mastercard la șah, World Class la fitness)", "year": "2021"},
+    {"rank": 7, "name": "Tiberiu Georgescu - vector relații", "description": "MI + Lect. univ. dr. - manager, antrenor, căpitan simultan - vorbește limbaj academic, sportiv și corporate, închide deal-urile", "year": "2017-2026"}
+  ]'::jsonb,
+  '[
+    {"channel": "Brand instituțional ASE", "segment": "Corporații cu CSR", "cost": "Foarte mic"},
+    {"channel": "Performanță echipă olimpică", "segment": "Sponsori patriotici", "cost": "Mare"},
+    {"channel": "Acoperire media (Agerpres, Newsweek)", "segment": "Sponsori care vor PR", "cost": "Mic"},
+    {"channel": "Formular B2B pe site", "segment": "Sponsori inbound", "cost": "Foarte mic"},
+    {"channel": "Networking Tiberiu Georgescu", "segment": "Toți sponsorii - relație directă", "cost": "Foarte mic"},
+    {"channel": "Aula Magna ASE pentru semnări", "segment": "Sponsori care vor PR formal", "cost": "Foarte mic"},
+    {"channel": "Ecosistem Superbet ca signaling", "segment": "Sponsori conservatori", "cost": "Foarte mic"}
+  ]'::jsonb,
+  '["4/5 membri echipă olimpică masculină + 3/5 feminină", "Viswanathan Anand (5x campion mondial) pe board 1 - primul >2.800 ELO la club românesc", "Campioni Superliga Națională din 2022 (masculin + feminin)", "Argint Cupa Cluburilor Europene 2022 - prima medalie RO în 24 ani", "Coaliție sponsori: Superbet, ONE United Properties, Mastercard, World Class", "Brand ASE 100+ ani - credibilitate instituțională imposibil de replicat", "Ivan Sokolov - „cel mai pe val antrenor al momentului""]'::jsonb,
+  '["Dependență ridicată de Superbet - numele clubului depinde de sponsor", "Concentrare pe seniori - nu construiește pipeline juniori propriu", "Facebook doar 4.890 likes (vs 37.000 ACS Oxygen, 23.572 CSU București)", "Asseturi non-românești (Anand, Saduakassova) - risc reputațional", "Dependență de un singur om - Tiberiu Georgescu", "Nu vinde cursuri retail - model incompatibil cu achiziție părinți"]'::jsonb,
+  '[
+    {"name": "Sediu Occidentului", "sector": 1, "address": "str. Occidentului nr. 7"}
+  ]'::jsonb,
+  '{"facebook": {"name": "CSU ASE București", "likes": 4890}}'::jsonb
+);
