@@ -76,6 +76,14 @@ export default function ProjectsPage() {
       endDate: '2025-06-01',
       status: 'in_progress',
     },
+    {
+      id: '5',
+      name: 'Youtube Channel - Slow living life',
+      description: 'Start YouTube channel about slow living lifestyle',
+      startDate: '2025-05-16',
+      endDate: '2025-05-16',
+      status: 'in_progress',
+    },
   ]);
 
   const handleSubmit = (e: React.FormEvent) => {
