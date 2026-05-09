@@ -80,6 +80,7 @@ const navigationGroups = [
     items: [
       { name: 'Projects', href: '/projects', icon: FolderKanban },
       { name: 'Strategy', href: '/strategy', icon: Compass },
+      { name: 'Competitors', href: '/competitors', icon: Target },
       { name: 'Analytics', href: '/analytics', icon: BarChart3 },
     ],
   },
