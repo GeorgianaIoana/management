@@ -68,6 +68,14 @@ export default function ProjectsPage() {
       endDate: '2025-06-25',
       status: 'in_progress',
     },
+    {
+      id: '4',
+      name: 'Promovare sah la Scoli din Dragasani',
+      description: 'Chess promotion in Dragasani schools',
+      startDate: '2025-06-01',
+      endDate: '2025-06-01',
+      status: 'in_progress',
+    },
   ]);
 
   const handleSubmit = (e: React.FormEvent) => {
