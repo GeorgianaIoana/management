@@ -6,6 +6,7 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { Textarea } from '@/components/ui/textarea';
+import { Badge } from '@/components/ui/badge';
 import {
   Dialog,
   DialogContent,
@@ -22,25 +23,80 @@ import {
   SelectTrigger,
   SelectValue,
 } from '@/components/ui/select';
-import { FolderKanban, CheckCircle, Clock, AlertCircle, Plus } from 'lucide-react';
+import { FolderKanban, CheckCircle, Clock, AlertCircle, Plus, Calendar } from 'lucide-react';
 import { toast } from 'sonner';
+import { format } from 'date-fns';
+
+interface Project {
+  id: string;
+  name: string;
+  description: string;
+  startDate: string;
+  endDate: string;
+  status: string;
+}
 
 export default function ProjectsPage() {
   const [open, setOpen] = useState(false);
   const [name, setName] = useState('');
   const [description, setDescription] = useState('');
+  const [startDate, setStartDate] = useState('');
+  const [endDate, setEndDate] = useState('');
   const [status, setStatus] = useState('in_progress');
+  const [projects, setProjects] = useState<Project[]>([
+    {
+      id: '1',
+      name: 'Tabara de sah',
+      description: 'Chess camp for kids',
+      startDate: '2025-05-30',
+      endDate: '2025-06-01',
+      status: 'planning',
+    },
+  ]);
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // TODO: Implement project creation with database
+    const newProject: Project = {
+      id: Date.now().toString(),
+      name,
+      description,
+      startDate,
+      endDate,
+      status,
+    };
+    setProjects([...projects, newProject]);
     toast.success('Project created!', {
       description: `"${name}" has been added.`,
     });
     setOpen(false);
     setName('');
     setDescription('');
+    setStartDate('');
+    setEndDate('');
     setStatus('in_progress');
+  };
+
+  const getStatusBadge = (status: string) => {
+    const variants: Record<string, 'default' | 'secondary' | 'destructive' | 'outline'> = {
+      planning: 'outline',
+      in_progress: 'default',
+      on_hold: 'secondary',
+      completed: 'default',
+    };
+    const labels: Record<string, string> = {
+      planning: 'Planning',
+      in_progress: 'In Progress',
+      on_hold: 'On Hold',
+      completed: 'Completed',
+    };
+    return <Badge variant={variants[status] ?? 'outline'}>{labels[status] ?? status}</Badge>;
+  };
+
+  const formatDateRange = (start: string, end: string) => {
+    if (!start || !end) return '';
+    const startDate = new Date(start);
+    const endDate = new Date(end);
+    return `${format(startDate, 'MMM d')} - ${format(endDate, 'MMM d, yyyy')}`;
   };
 
   return (
@@ -87,6 +143,28 @@ export default function ProjectsPage() {
                   rows={3}
                 />
               </div>
+              <div className="grid grid-cols-2 gap-4">
+                <div className="space-y-2">
+                  <Label htmlFor="startDate">Start Date</Label>
+                  <Input
+                    id="startDate"
+                    type="date"
+                    value={startDate}
+                    onChange={(e) => setStartDate(e.target.value)}
+                    required
+                  />
+                </div>
+                <div className="space-y-2">
+                  <Label htmlFor="endDate">End Date</Label>
+                  <Input
+                    id="endDate"
+                    type="date"
+                    value={endDate}
+                    onChange={(e) => setEndDate(e.target.value)}
+                    required
+                  />
+                </div>
+              </div>
               <div className="space-y-2">
                 <Label htmlFor="status">Status</Label>
                 <Select value={status} onValueChange={setStatus}>
@@ -120,7 +198,7 @@ export default function ProjectsPage() {
             <FolderKanban className="h-4 w-4 text-muted-foreground" />
           </CardHeader>
           <CardContent>
-            <div className="text-2xl font-bold">0</div>
+            <div className="text-2xl font-bold">{projects.length}</div>
             <p className="text-xs text-muted-foreground">
               active projects
             </p>
@@ -132,7 +210,9 @@ export default function ProjectsPage() {
             <CheckCircle className="h-4 w-4 text-green-600" />
           </CardHeader>
           <CardContent>
-            <div className="text-2xl font-bold text-green-600">0</div>
+            <div className="text-2xl font-bold text-green-600">
+              {projects.filter(p => p.status === 'completed').length}
+            </div>
             <p className="text-xs text-muted-foreground">
               finished projects
             </p>
@@ -144,7 +224,9 @@ export default function ProjectsPage() {
             <Clock className="h-4 w-4 text-blue-600" />
           </CardHeader>
           <CardContent>
-            <div className="text-2xl font-bold text-blue-600">0</div>
+            <div className="text-2xl font-bold text-blue-600">
+              {projects.filter(p => p.status === 'in_progress').length}
+            </div>
             <p className="text-xs text-muted-foreground">
               ongoing work
             </p>
@@ -152,25 +234,54 @@ export default function ProjectsPage() {
         </Card>
         <Card>
           <CardHeader className="flex flex-row items-center justify-between pb-2">
-            <CardTitle className="text-sm font-medium">Delayed</CardTitle>
-            <AlertCircle className="h-4 w-4 text-red-600" />
+            <CardTitle className="text-sm font-medium">Planning</CardTitle>
+            <AlertCircle className="h-4 w-4 text-yellow-600" />
           </CardHeader>
           <CardContent>
-            <div className="text-2xl font-bold text-red-600">0</div>
+            <div className="text-2xl font-bold text-yellow-600">
+              {projects.filter(p => p.status === 'planning').length}
+            </div>
             <p className="text-xs text-muted-foreground">
-              need attention
+              in preparation
             </p>
           </CardContent>
         </Card>
       </div>
 
-      {/* Placeholder content */}
+      {/* Projects List */}
       <Card>
         <CardHeader>
-          <CardTitle>Recent Projects</CardTitle>
+          <CardTitle>All Projects</CardTitle>
         </CardHeader>
-        <CardContent className="py-8 text-center text-muted-foreground">
-          No projects found. Click &quot;Add Project&quot; to create one.
+        <CardContent>
+          {projects.length === 0 ? (
+            <p className="py-8 text-center text-muted-foreground">
+              No projects found. Click &quot;Add Project&quot; to create one.
+            </p>
+          ) : (
+            <div className="space-y-4">
+              {projects.map((project) => (
+                <div
+                  key={project.id}
+                  className="flex items-center justify-between rounded-lg border p-4"
+                >
+                  <div className="space-y-1">
+                    <div className="flex items-center gap-2">
+                      <h3 className="font-semibold">{project.name}</h3>
+                      {getStatusBadge(project.status)}
+                    </div>
+                    {project.description && (
+                      <p className="text-sm text-muted-foreground">{project.description}</p>
+                    )}
+                    <div className="flex items-center gap-1 text-sm text-muted-foreground">
+                      <Calendar className="h-4 w-4" />
+                      {formatDateRange(project.startDate, project.endDate)}
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          )}
         </CardContent>
       </Card>
     </div>
