@@ -1,12 +1,13 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { Textarea } from '@/components/ui/textarea';
+import { createClient } from '@/lib/supabase/client';
 import {
   Dialog,
   DialogContent,
@@ -39,6 +40,11 @@ import {
   Users,
   Share2,
   Globe,
+  Rocket,
+  Monitor,
+  Briefcase,
+  Crown,
+  ArrowRight,
 } from 'lucide-react';
 import { toast } from 'sonner';
 import { format } from 'date-fns';
@@ -50,6 +56,24 @@ interface Goal {
   category: string;
   deadline: string;
   status: string;
+}
+
+interface FocusArea {
+  id: number;
+  title: string;
+  revenue_potential: string;
+  why_it_works: string[];
+  actions: Array<{
+    action: string;
+    deadline: string;
+    status?: string;
+  }>;
+}
+
+interface RevenueProjection {
+  current: { total: string };
+  dec_2026: { total: string };
+  dec_2027: { total: string };
 }
 
 export default function StrategyPage() {
@@ -94,6 +118,33 @@ export default function StrategyPage() {
       status: 'not_started',
     },
   ]);
+
+  const [focusAreas, setFocusAreas] = useState<FocusArea[]>([]);
+  const [revenueProjection, setRevenueProjection] = useState<RevenueProjection | null>(null);
+  const [loadingFocus, setLoadingFocus] = useState(true);
+
+  useEffect(() => {
+    async function fetchFocusAreas() {
+      const supabase = createClient();
+      const { data, error } = await supabase
+        .from('strategic_documents')
+        .select('content')
+        .eq('slug', 'the-square-focus-strategic-2026')
+        .single();
+
+      if (!error && data?.content) {
+        const content = data.content as { focus_areas?: FocusArea[]; revenue_projection?: RevenueProjection };
+        if (content.focus_areas) {
+          setFocusAreas(content.focus_areas);
+        }
+        if (content.revenue_projection) {
+          setRevenueProjection(content.revenue_projection);
+        }
+      }
+      setLoadingFocus(false);
+    }
+    fetchFocusAreas();
+  }, []);
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -294,6 +345,102 @@ export default function StrategyPage() {
           </CardContent>
         </Card>
       </div>
+
+      {/* 3 Strategic Focus Areas */}
+      {!loadingFocus && focusAreas.length > 0 && (
+        <Card className="border-primary">
+          <CardHeader>
+            <div className="flex items-center justify-between">
+              <div>
+                <CardTitle className="flex items-center gap-2 text-xl">
+                  <Rocket className="h-6 w-6 text-primary" />
+                  Cele 3 Idei Strategice de Focus 2026-2027
+                </CardTitle>
+                <CardDescription className="mt-1">
+                  Plan de maximizare a veniturilor
+                </CardDescription>
+              </div>
+              {revenueProjection && (
+                <div className="text-right">
+                  <p className="text-sm text-muted-foreground">Proiecție Dec 2027</p>
+                  <p className="text-2xl font-bold text-green-600">{revenueProjection.dec_2027.total}</p>
+                </div>
+              )}
+            </div>
+          </CardHeader>
+          <CardContent>
+            <div className="grid gap-6 md:grid-cols-3">
+              {focusAreas.map((area) => {
+                const icons = [Monitor, Briefcase, Crown];
+                const colors = ['text-purple-600 bg-purple-500/10', 'text-blue-600 bg-blue-500/10', 'text-amber-600 bg-amber-500/10'];
+                const Icon = icons[area.id - 1] || Rocket;
+                const colorClass = colors[area.id - 1] || 'text-primary bg-primary/10';
+
+                return (
+                  <div key={area.id} className="rounded-lg border p-4 hover:border-primary transition-colors">
+                    <div className="flex items-start gap-3 mb-3">
+                      <div className={`flex h-10 w-10 items-center justify-center rounded-xl ${colorClass}`}>
+                        <Icon className="h-5 w-5" />
+                      </div>
+                      <div className="flex-1">
+                        <Badge className="bg-green-600 mb-2">{area.revenue_potential}</Badge>
+                        <h3 className="font-semibold leading-tight">{area.title}</h3>
+                      </div>
+                    </div>
+
+                    <div className="space-y-2 mb-4">
+                      <p className="text-xs font-medium text-muted-foreground uppercase">De ce funcționează:</p>
+                      <ul className="space-y-1">
+                        {area.why_it_works.slice(0, 3).map((reason, i) => (
+                          <li key={i} className="text-sm text-muted-foreground flex gap-2">
+                            <CheckCircle2 className="h-4 w-4 text-green-600 shrink-0 mt-0.5" />
+                            <span>{reason}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+
+                    <div className="space-y-2">
+                      <p className="text-xs font-medium text-muted-foreground uppercase">Următorii pași:</p>
+                      {area.actions.slice(0, 2).map((action, i) => (
+                        <div key={i} className="flex items-center justify-between text-sm">
+                          <span className="flex items-center gap-1">
+                            <ArrowRight className="h-3 w-3 text-primary" />
+                            {action.action.length > 35 ? action.action.substring(0, 35) + '...' : action.action}
+                          </span>
+                          <Badge variant="outline" className="text-xs">{action.deadline}</Badge>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+
+            {revenueProjection && (
+              <div className="mt-6 p-4 rounded-lg bg-muted/50">
+                <p className="text-sm font-medium mb-3">Proiecție Venituri Totale</p>
+                <div className="flex items-center justify-between gap-4">
+                  <div className="text-center">
+                    <p className="text-xs text-muted-foreground">Acum (Mai 2026)</p>
+                    <p className="text-lg font-semibold">{revenueProjection.current.total}</p>
+                  </div>
+                  <ArrowRight className="h-5 w-5 text-muted-foreground" />
+                  <div className="text-center">
+                    <p className="text-xs text-muted-foreground">Dec 2026</p>
+                    <p className="text-lg font-semibold text-primary">{revenueProjection.dec_2026.total}</p>
+                  </div>
+                  <ArrowRight className="h-5 w-5 text-muted-foreground" />
+                  <div className="text-center">
+                    <p className="text-xs text-muted-foreground">Dec 2027</p>
+                    <p className="text-xl font-bold text-green-600">{revenueProjection.dec_2027.total}</p>
+                  </div>
+                </div>
+              </div>
+            )}
+          </CardContent>
+        </Card>
+      )}
 
       {/* Goals List */}
       <Card>
