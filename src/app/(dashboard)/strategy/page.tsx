@@ -32,6 +32,13 @@ import {
   Circle,
   Plus,
   Calendar,
+  Ticket,
+  GraduationCap,
+  MapPin,
+  Trophy,
+  Users,
+  Share2,
+  Globe,
 } from 'lucide-react';
 import { toast } from 'sonner';
 import { format } from 'date-fns';
@@ -334,6 +341,232 @@ export default function StrategyPage() {
               ))}
             </div>
           )}
+        </CardContent>
+      </Card>
+
+      {/* Customer Acquisition Mechanisms - from Scoala de Sah analysis */}
+      <Card>
+        <CardHeader>
+          <CardTitle className="flex items-center gap-2 text-base">
+            <TrendingUp className="h-5 w-5 text-primary" />
+            Customer Acquisition Mechanisms
+          </CardTitle>
+          <CardDescription>
+            7 proven strategies from Școala de Șah București analysis (2012-2026)
+          </CardDescription>
+        </CardHeader>
+        <CardContent>
+          <div className="space-y-4">
+            {/* Mechanism 1 */}
+            <div className="flex items-start gap-4 rounded-lg border p-4">
+              <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-yellow-500/10 text-yellow-600">
+                <Ticket className="h-5 w-5" />
+              </div>
+              <div className="flex-1">
+                <div className="flex items-center gap-2">
+                  <h3 className="font-semibold">1. Vouchere Primării (250 RON/lună)</h3>
+                  <Badge className="bg-yellow-500">Top Priority</Badge>
+                </div>
+                <p className="mt-1 text-sm text-muted-foreground">
+                  Cel mai puternic avantaj competitiv. Programele „Sport pentru fiecare" acoperă aproape integral abonamentul,
+                  transformând serviciul în „aproape gratuit" pentru părinții eligibili.
+                </p>
+                <p className="mt-2 text-xs text-muted-foreground">Activ din ~2022-2023</p>
+              </div>
+            </div>
+
+            {/* Mechanism 2 */}
+            <div className="flex items-start gap-4 rounded-lg border p-4">
+              <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-green-500/10 text-green-600">
+                <CheckCircle2 className="h-5 w-5" />
+              </div>
+              <div className="flex-1">
+                <div className="flex items-center gap-2">
+                  <h3 className="font-semibold">2. Lecția Gratuită de Probă</h3>
+                  <Badge variant="outline">Active</Badge>
+                </div>
+                <p className="mt-1 text-sm text-muted-foreground">
+                  Bariera de intrare la zero. Părintele evaluează fit-ul copil-instructor fără calcul economic.
+                  Copilul este încadrat la o grupă compatibilă, crescând masiv retenția post-conversie.
+                </p>
+                <p className="mt-2 text-xs text-muted-foreground">Politică din 2012, în toate CTA-urile</p>
+              </div>
+            </div>
+
+            {/* Mechanism 3 */}
+            <div className="flex items-start gap-4 rounded-lg border p-4">
+              <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-blue-500/10 text-blue-600">
+                <Trophy className="h-5 w-5" />
+              </div>
+              <div className="flex-1">
+                <div className="flex items-center gap-2">
+                  <h3 className="font-semibold">3. Ecosistem Turnee pe Vârstă</h3>
+                  <Badge variant="outline">Active</Badge>
+                </div>
+                <p className="mt-1 text-sm text-muted-foreground">
+                  Funnel de retenție pe 12+ ani: Cupa Prichindel (5-6 ani) → Cupa Școlii (U6-U16) →
+                  Annual Chess Contest (FRȘAH/FIDE) → Divizii Naționale. Nu există moment în care copilul „termină".
+                </p>
+                <p className="mt-2 text-xs text-muted-foreground">Cupa CSU Online - ediția 50 în feb. 2025</p>
+              </div>
+            </div>
+
+            {/* Mechanism 4 */}
+            <div className="flex items-start gap-4 rounded-lg border p-4">
+              <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-red-500/10 text-red-600">
+                <Flag className="h-5 w-5" />
+              </div>
+              <div className="flex-1">
+                <div className="flex items-center gap-2">
+                  <h3 className="font-semibold">4. Lock-in Administrativ via FRȘAH</h3>
+                  <Badge variant="outline">Active</Badge>
+                </div>
+                <p className="mt-1 text-sm text-muted-foreground">
+                  Odată legitimat la Federația Română de Șah prin club, voucherul de la primărie este alocat pentru o
+                  singură ramură sportivă. Schimbarea către alt club implică reluarea procesului birocratic.
+                </p>
+                <p className="mt-2 text-xs text-muted-foreground">Cost de switching real, similar cu telecom</p>
+              </div>
+            </div>
+
+            {/* Mechanism 5 */}
+            <div className="flex items-start gap-4 rounded-lg border p-4">
+              <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-purple-500/10 text-purple-600">
+                <GraduationCap className="h-5 w-5" />
+              </div>
+              <div className="flex-1">
+                <div className="flex items-center gap-2">
+                  <h3 className="font-semibold">5. Cursuri în Grădinițe, Școli și Afterschool-uri</h3>
+                  <Badge variant="outline">Active</Badge>
+                </div>
+                <p className="mt-1 text-sm text-muted-foreground">
+                  B2B2C la sursă. Instituția aduce volumul de copii, iar clubul îi convertește treptat.
+                  Nu trebuie să câștigi atenția părintelui - copilul descoperă șahul în mediul lui zilnic.
+                </p>
+                <p className="mt-2 text-xs text-muted-foreground">Canal extins constant 2015-2026</p>
+              </div>
+            </div>
+
+            {/* Mechanism 6 */}
+            <div className="flex items-start gap-4 rounded-lg border p-4">
+              <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-orange-500/10 text-orange-600">
+                <Share2 className="h-5 w-5" />
+              </div>
+              <div className="flex-1">
+                <div className="flex items-center gap-2">
+                  <h3 className="font-semibold">6. Recomandare 10% + Frați 25%</h3>
+                  <Badge variant="outline">Active</Badge>
+                </div>
+                <p className="mt-1 text-sm text-muted-foreground">
+                  Monetizarea explicită a word-of-mouth. Decizia părintelui se ia preponderent prin alți părinți.
+                  10% reducere pentru recomandare, 25% pentru frați. Foarte ieftin, foarte eficient.
+                </p>
+                <p className="mt-2 text-xs text-muted-foreground">Politică de prețuri afișată din 2020+</p>
+              </div>
+            </div>
+
+            {/* Mechanism 7 */}
+            <div className="flex items-start gap-4 rounded-lg border p-4">
+              <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-cyan-500/10 text-cyan-600">
+                <MapPin className="h-5 w-5" />
+              </div>
+              <div className="flex-1">
+                <div className="flex items-center gap-2">
+                  <h3 className="font-semibold">7. Multi-locație + Online + Tabere</h3>
+                  <Badge variant="outline">Active</Badge>
+                </div>
+                <p className="mt-1 text-sm text-muted-foreground">
+                  Acoperire geografică superioară: sedii multiple + Zoom + tabere de vară (10 ediții, 700+ copii)
+                  și de iarnă (6 ediții). Indiferent de profilul clientului, există un format compatibil.
+                </p>
+                <p className="mt-2 text-xs text-muted-foreground">Consolidat 2020-2025, online accelerat în 2020</p>
+              </div>
+            </div>
+          </div>
+        </CardContent>
+      </Card>
+
+      {/* Acquisition Channels Summary */}
+      <Card>
+        <CardHeader>
+          <CardTitle className="flex items-center gap-2 text-base">
+            <Users className="h-5 w-5 text-primary" />
+            Canale de Achiziție - Sumar
+          </CardTitle>
+          <CardDescription>Costuri și segmente țintă pentru fiecare canal</CardDescription>
+        </CardHeader>
+        <CardContent>
+          <div className="overflow-x-auto">
+            <table className="w-full text-sm">
+              <thead>
+                <tr className="border-b">
+                  <th className="pb-3 text-left font-semibold">Canal</th>
+                  <th className="pb-3 text-left font-semibold">Segment</th>
+                  <th className="pb-3 text-left font-semibold">Cost Achiziție</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y">
+                <tr>
+                  <td className="py-3">Lecție gratuită de probă</td>
+                  <td className="py-3">Copii (5-14 ani)</td>
+                  <td className="py-3"><Badge variant="secondary">Mediu</Badge></td>
+                </tr>
+                <tr>
+                  <td className="py-3">Vouchere primării 250 RON</td>
+                  <td className="py-3">Copii - părinți cost-conscious</td>
+                  <td className="py-3"><Badge className="bg-green-600">Foarte mic</Badge></td>
+                </tr>
+                <tr>
+                  <td className="py-3">Cursuri grădinițe/școli</td>
+                  <td className="py-3">Copii (3-10 ani)</td>
+                  <td className="py-3"><Badge className="bg-green-600">Mic</Badge></td>
+                </tr>
+                <tr>
+                  <td className="py-3">Tabere vară/iarnă</td>
+                  <td className="py-3">Copii - entry point</td>
+                  <td className="py-3"><Badge variant="secondary">Mediu</Badge></td>
+                </tr>
+                <tr>
+                  <td className="py-3">Turnee interne</td>
+                  <td className="py-3">Copii performanță + adulți</td>
+                  <td className="py-3"><Badge className="bg-green-600">Mic</Badge></td>
+                </tr>
+                <tr>
+                  <td className="py-3">Recomandări 10% + frați 25%</td>
+                  <td className="py-3">Familii existente</td>
+                  <td className="py-3"><Badge className="bg-green-600">Foarte mic</Badge></td>
+                </tr>
+                <tr>
+                  <td className="py-3">Cursuri online Zoom</td>
+                  <td className="py-3">Copii + adulți din toată țara</td>
+                  <td className="py-3"><Badge className="bg-green-600">Mic</Badge></td>
+                </tr>
+                <tr>
+                  <td className="py-3">Workshopuri corporate</td>
+                  <td className="py-3">Adulți (B2B)</td>
+                  <td className="py-3"><Badge variant="secondary">Mediu</Badge></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </CardContent>
+      </Card>
+
+      {/* Key Insight */}
+      <Card className="border-primary/50 bg-primary/5">
+        <CardHeader>
+          <CardTitle className="flex items-center gap-2 text-base">
+            <Lightbulb className="h-5 w-5 text-primary" />
+            Concluzie Strategică
+          </CardTitle>
+        </CardHeader>
+        <CardContent>
+          <p className="text-sm text-muted-foreground">
+            <strong>Bariera zero</strong> (mecanismele 1-2) atrage prospectul, <strong>mecanismele de lock-in și distribuție</strong> (3-5)
+            mențin și extind, iar <strong>amplificatorii</strong> (6-7) accelerează creșterea organică.
+            Avantajul real nu este nici prețul, nici antrenorii, nici sediul, ci faptul că toate aceste mecanisme
+            sunt integrate într-un funnel unitar pe care un competitor mai mic l-ar putea replica doar parțial.
+          </p>
         </CardContent>
       </Card>
     </div>
