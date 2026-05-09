@@ -52,6 +52,14 @@ export default function ProjectsPage() {
       endDate: '2025-06-01',
       status: 'planning',
     },
+    {
+      id: '2',
+      name: 'Competition between Businessmen and Politicians',
+      description: 'Chess competition event',
+      startDate: '2025-06-20',
+      endDate: '2025-06-20',
+      status: 'planning',
+    },
   ]);
 
   const handleSubmit = (e: React.FormEvent) => {
