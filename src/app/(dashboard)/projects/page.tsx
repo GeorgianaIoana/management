@@ -60,6 +60,14 @@ export default function ProjectsPage() {
       endDate: '2025-06-20',
       status: 'planning',
     },
+    {
+      id: '3',
+      name: 'Sponsorships',
+      description: 'Secure sponsorships for events',
+      startDate: '2025-06-25',
+      endDate: '2025-06-25',
+      status: 'in_progress',
+    },
   ]);
 
   const handleSubmit = (e: React.FormEvent) => {
