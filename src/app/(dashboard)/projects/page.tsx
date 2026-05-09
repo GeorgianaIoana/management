@@ -84,6 +84,14 @@ export default function ProjectsPage() {
       endDate: '2025-05-16',
       status: 'in_progress',
     },
+    {
+      id: '6',
+      name: 'ONG - learning course',
+      description: 'NGO management learning course',
+      startDate: '2025-05-09',
+      endDate: '2025-05-09',
+      status: 'in_progress',
+    },
   ]);
 
   const handleSubmit = (e: React.FormEvent) => {
