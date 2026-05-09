@@ -12,15 +12,11 @@ import {
   TrendingDown,
   MapPin,
   Globe,
-  Facebook,
-  Instagram,
   ExternalLink,
   Users,
   Ticket,
   GraduationCap,
   Award,
-  Store,
-  CreditCard,
   Calendar,
 } from 'lucide-react';
 import { competitors, type Competitor } from '@/data/competitors';
@@ -77,13 +73,13 @@ function CompetitorCard({ competitor }: { competitor: Competitor }) {
           <div className="flex gap-4">
             {competitor.socialMedia.facebook && (
               <div className="flex items-center gap-2 text-sm text-muted-foreground">
-                <Facebook className="h-4 w-4 text-blue-600" />
+                <span className="flex h-4 w-4 items-center justify-center rounded bg-blue-600 text-[10px] font-bold text-white">f</span>
                 {competitor.socialMedia.facebook.followers?.toLocaleString() || competitor.socialMedia.facebook.likes?.toLocaleString()} followers
               </div>
             )}
             {competitor.socialMedia.instagram && (
               <div className="flex items-center gap-2 text-sm text-muted-foreground">
-                <Instagram className="h-4 w-4 text-pink-600" />
+                <span className="flex h-4 w-4 items-center justify-center rounded bg-gradient-to-br from-purple-600 to-pink-500 text-[10px] font-bold text-white">ig</span>
                 {competitor.socialMedia.instagram.followers.toLocaleString()} followers
               </div>
             )}
