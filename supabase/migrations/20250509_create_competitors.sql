@@ -103,3 +103,36 @@ INSERT INTO competitors (name, website, description, founded_year, key_mechanism
   ]'::jsonb,
   '{"facebook": {"name": "Academia de Sah", "followers": 37000, "rating": "100% recommend", "reviews": 46}, "instagram": {"handle": "@academiadesah", "followers": 394, "posts": 74}, "twitter": {"handle": "@AcademiadeSah", "posts": 126}}'::jsonb
 );
+
+-- Insert Șah în Școală (CS Gambitul Damei)
+INSERT INTO competitors (name, website, description, founded_year, key_mechanisms, acquisition_channels, strengths, weaknesses, locations, social_media) VALUES (
+  'Șah în Școală (CS Gambitul Damei)',
+  'sahinscoala.org',
+  'Program național non-profit de educație prin șah - 125.000 copii beneficiari în 2025, locul I la Gala Societății Civile 2024',
+  2015,
+  '[
+    {"rank": 1, "name": "Sponsorul ancoră AQUA Carpatica", "description": "Partener principal de peste un deceniu (din ~2014-2015), oferind finanțare și hidratare gratuită la toate evenimentele - face proiectul economic posibil", "year": "2014-2026"},
+    {"rank": 2, "name": "Distribuție gratuită materiale", "description": "80.000 manuale + 17.000 seturi de șah distribuite gratuit în 37 de județe - elimină bariera materială pentru orice școală", "year": "2015-2025"},
+    {"rank": 3, "name": "Formare gratuită profesori CCD Iași", "description": "Curs 27 ore (24h + 3h evaluare) online ZOOM, gratuit, acreditat - 2.500 profesori formați care devin multiplicatori (30-60 elevi/an)", "year": "2015-2025"},
+    {"rank": 4, "name": "Premiul Gala Societății Civile 2024", "description": "Locul I la cea mai importantă recunoaștere pentru proiecte civice - deschide automat ușile la Ministerul Educației, primării și sponsori noi", "year": "2024"},
+    {"rank": 5, "name": "Evenimentul „România 6000"", "description": "6.000 copii joacă șah simultan în 60 de localități pe Ziua Mondială a Educației (5 octombrie) - format viral pentru presă națională", "year": "2024"},
+    {"rank": 6, "name": "Parteneriate mall-uri", "description": "Concursuri gratuite la Iulius Mall, Shopping City (100-300 copii/eveniment) - mall oferă spațiu, proiectul aduce trafic și conținut", "year": "2024-2025"},
+    {"rank": 7, "name": "Coaliție corporate diversificată", "description": "AQUA Carpatica, Rompetrol, UniCredit, Egger, Leier, Toyota Iași Est, Adservio - diversitate sectorială reduce riscul de colaps", "year": "2018-2025"}
+  ]'::jsonb,
+  '[
+    {"channel": "Cursuri prin profesori formați", "segment": "Copii în școli publice", "cost": "Foarte mic"},
+    {"channel": "România 6000 (60 orașe simultan)", "segment": "Copii + presă națională", "cost": "Mic"},
+    {"channel": "Concursuri gratuite mall-uri", "segment": "Copii + familii shopping", "cost": "Foarte mic"},
+    {"channel": "Festivalul Margareta Perevoznic", "segment": "Comunitate șah Iași", "cost": "Mic"},
+    {"channel": "Distribuție materiale gratuite", "segment": "Școli rurale + urbane", "cost": "Mediu"},
+    {"channel": "Parteneriate ISJ + Primării", "segment": "Instituții educaționale", "cost": "Foarte mic"},
+    {"channel": "Circuitul Național", "segment": "Profesori formați - retenție", "cost": "Mic"}
+  ]'::jsonb,
+  '["125.000 copii beneficiari în 2025 (creștere 316% din 2022)", "Acoperire națională: 37 județe, 270 evenimente/an", "2.500 profesori formați gratuit - multiplicatori în sistem", "Locul I Gala Societății Civile 2024 - credibilitate maximă", "AQUA Carpatica partener 10+ ani - stabilitate financiară", "Model non-profit unic: sponsori plătesc, copii/profesori beneficiază gratuit", "Acreditare CCD Iași - credite formare profesională obligatorii"]'::jsonb,
+  '["Instagram aproape inexistent (44 followers vs 125.000 beneficiari)", "Dependență ridicată de sponsorul ancoră AQUA Carpatica", "Concentrare geografică pe Iași/Moldova - Vest subdezvolvat", "Confuzie de brand cu „șah în școală" generic (CSU folosește același termen)", "Lipsa platformei tehnologice (fără LMS, fără joc online între școli)", "Vulnerabil la schimbări politice la Ministerul Educației"]'::jsonb,
+  '[
+    {"name": "Sediu Iași (origine)", "sector": 0},
+    {"name": "Acoperire națională - 37 județe", "sector": 0}
+  ]'::jsonb,
+  '{"facebook": {"name": "Șah în Școală", "followers": 5000}, "instagram": {"handle": "@sahinscoala", "followers": 44, "posts": 33}}'::jsonb
+);
